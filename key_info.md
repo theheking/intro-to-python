@@ -8,7 +8,7 @@ Register now for our upcoming Introduction to Python workshop. This workshop wil
 At the end of the workshop you will be able to:
  -	Use basic python functions
  -	Edit csv files with python
- -		Make static figures
+ -	Make static figures
 
 Requirements:
  - Web browser
