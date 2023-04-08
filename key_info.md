@@ -2,7 +2,8 @@
 layout: page
 title: Key Infomation
 ---
-Intro to Python (2-Day) 
+
+# Intro to Python (2-Day) 
 
 
 Day 1: 9am - 1pm Friday 5th May 
@@ -24,4 +25,4 @@ Go to https://colab.research.google.com and login with your Google account.
 Select NEW NOTEBOOK → NEW PYTHON 3 NOTEBOOK - a new notebook will be created.
 
 
-# We acknowledge and pay respects to the Elders and Traditional Owners of the land
+#### We acknowledge and pay respects to the Elders and Traditional Owners of the land
