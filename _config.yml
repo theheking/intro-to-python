@@ -23,11 +23,22 @@ navbar-links:
   Course Structure: "course_structure"
   Material:
     - 1 - The Basics: "practical_overview/1_Python_The_Basics"
-    - 2 - The DataFrame: "practical_overview/2_Dataframes"
-    - 3 - Indexing DataFrames: "practical_overview/day_2_a"
-    - 4 - Missing Data: "practical_overview/day_2_b"
+    - 2 - The DataFrame: "practical_overview/2_DataFrames"
+    - 3 - Indexing DataFrames: "practical_overview/3_Indexing"
+    - 4 - Missing Data: "practical_overview/4_Missing"
+    - 5 - Combining DataFrames: "practical_overview/5_Combining_DataFrames"
+    - 6 - Automation: "practical_overview/6_Automation"
+    - 7 - Visualisation: "practical_overview/7_Visualisation"
+
   Material Comp:
-    -  1 - The Basics: "practical_overview/1_Python_The_Basics_Filled"
+    - 1 - The Basics: "practical_overview/1_Python_The_Basics_Filled"
+    - 2 - The DataFrame: "practical_overview/2_DataFrames_Filled"
+    - 3 - Indexing DataFrames: "practical_overview/3_Indexing_Filled"
+    - 4 - Missing Data: "practical_overview/4_Missing_Filled"
+    - 5 - Combining DataFrames: "practical_overview/5_Combining_DataFrames_Filled"
+    - 6 - Automation: "practical_overview/6_Automation_Filled"
+    - 7 - Visualisation: "practical_overview/7_Visualisation_Filled"
+
   Key Info: "key_info"
 
 ################
