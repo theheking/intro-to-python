@@ -18,9 +18,10 @@ Requirements:
  - Google Collab account 
 
 
-###How to Set Up Your Google Colab Account
+### How to Set Up Your Google Colab Account
 
 Go to https://colab.research.google.com and login with your Google account.
 Select NEW NOTEBOOK → NEW PYTHON 3 NOTEBOOK - a new notebook will be created.
 
 
+# We acknowledge and pay respects to the Elders and Traditional Owners of the land
