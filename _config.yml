@@ -21,15 +21,14 @@ author: Helen King
 
 navbar-links:
   Course Structure: "course_structure"
-  Course Material:
+  Material:
     - 1 - The Basics: "practical_overview/1_Python_The_Basics"
     - 2 - The DataFrame: "practical_overview/2_Dataframes"
     - 3 - Indexing DataFrames: "practical_overview/day_2_a"
     - 4 - Missing Data: "practical_overview/day_2_b"
-  Course Material Completed:
+  Material Comp:
     -  1 - The Basics: "practical_overview/1_Python_The_Basics_Filled"
-    
-  Key Information: "key_info"
+  Key Info: "key_info"
 
 ################
 # --- Logo --- #
