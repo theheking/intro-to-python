@@ -1,0 +1,1192 @@
+﻿patient_id,site_id,sex,time,year,month,day,illness
+1,2,M,9:27 am,2022,1,12,cold
+2,3,M,10:57 am,2022,1,12,stabbing
+3,2,F,4:33 pm,2022,1,12,faint
+4,7,M,4:52 pm,2022,1,12,jaundice
+5,3,M,7:26 pm,2022,1,12,
+6,1,M,6:24 am,2022,2,12,neck dissection
+7,2,F,2:57 pm,2022,2,12,myeloma
+8,1,M,3:45 pm,2022,2,12,nstemi
+9,1,F,7:06 pm,2022,2,12,septic
+10,6,F,3:23 am,2022,3,12,aortic anurysm
+11,5,F,2:14 pm,2022,3,12,overdose
+12,7,M,2:51 pm,2022,3,12,pe
+13,3,M,11:08 pm,2022,3,12,urinary tract infection
+14,8,,11:35 pm,2022,3,12,fall
+15,6,F,12:17 pm,2022,4,12,valve replacement
+16,4,F,7:58 am,2022,5,12,stomach pump
+17,3,F,8:39 am,2022,5,12,MVA
+18,2,M,3:17 pm,2022,5,12,diabetic ketoacidosois
+19,4,,3:18 pm,2022,5,12,mva
+20,11,F,5:34 pm,2022,5,12,
+21,14,F,12:07 am,2022,6,12,cold
+22,15,F,10:05 am,2022,6,12,stabbing
+23,13,M,11:13 am,2022,6,12,faint
+24,13,M,4:00 pm,2022,6,12,jaundice
+25,9,M,5:20 pm,2022,6,12,
+26,15,M,6:05 pm,2022,6,12,neck dissection
+27,15,M,6:38 pm,2022,6,12,myeloma
+28,11,M,7:06 pm,2022,6,12,nstemi
+29,11,M,12:37 pm,2022,7,12,septic
+30,10,F,1:30 pm,2022,7,12,aortic anurysm
+31,15,F,4:15 pm,2022,7,12,overdose
+32,10,F,5:16 pm,2022,7,12,pe
+33,11,F,9:34 pm,2022,7,12,urinary tract infection
+34,17,,10:42 pm,2022,7,12,fall
+35,13,F,12:54 am,2022,8,12,valve replacement
+36,16,F,9:09 am,2022,8,12,stomach pump
+37,11,F,12:48 pm,2022,8,12,MVA
+38,17,M,3:14 pm,2022,8,12,diabetic ketoacidosois
+39,11,F,5:00 pm,2022,8,12,mva
+40,20,M,10:55 am,2022,9,12,
+41,23,F,1:24 pm,2022,9,12,cold
+42,18,F,1:50 pm,2022,9,12,stabbing
+43,21,M,3:29 pm,2022,9,12,faint
+44,18,F,6:08 pm,2022,9,12,jaundice
+45,22,M,2:30 pm,2022,10,12,
+46,19,M,8:28 pm,2022,10,12,neck dissection
+47,18,M,9:03 pm,2022,10,12,myeloma
+48,20,F,4:21 pm,2022,11,12,nstemi
+49,12,F,11:37 am,2022,12,12,septic
+50,18,F,1:10 pm,2022,12,12,aortic anurysm
+51,21,F,4:20 pm,2022,12,12,overdose
+52,12,F,4:32 pm,2022,12,12,pe
+53,22,M,7:22 pm,2022,12,12,urinary tract infection
+54,18,M,7:26 pm,2022,12,12,fall
+55,23,M,10:50 pm,2022,12,12,valve replacement
+56,20,M,11:49 pm,2022,12,12,stomach pump
+57,22,,3:14 am,2022,12,13,MVA
+58,12,M,1:13 pm,2022,12,13,diabetic ketoacidosois
+59,19,M,1:58 pm,2022,12,13,mva
+60,19,M,6:50 pm,2022,12,13,
+61,23,M,2:47 am,2022,12,14,cold
+62,19,M,1:18 pm,2022,12,14,stabbing
+63,3,M,1:32 pm,2022,12,14,faint
+64,7,M,3:46 pm,2022,12,14,jaundice
+65,4,F,6:55 pm,2022,12,14,
+66,4,F,8:52 pm,2022,12,14,neck dissection
+67,7,M,10:17 pm,2022,12,14,myeloma
+68,8,F,12:30 am,2022,12,15,nstemi
+69,2,M,12:32 pm,2022,12,15,septic
+70,3,F,5:28 pm,2022,12,15,aortic anurysm
+71,7,F,6:05 pm,2022,12,15,overdose
+72,2,M,6:38 pm,2022,12,15,pe
+73,3,F,12:43 am,2022,12,16,urinary tract infection
+74,8,M,11:56 am,2022,12,16,fall
+75,8,F,12:49 pm,2022,12,16,valve replacement
+76,9,F,2:00 pm,2022,12,16,stomach pump
+77,4,,3:47 pm,2022,12,16,MVA
+78,1,M,5:30 pm,2022,12,16,diabetic ketoacidosois
+79,7,F,6:02 pm,2022,12,16,mva
+80,1,M,7:50 pm,2022,12,16,
+81,4,F,3:33 am,2022,12,17,cold
+82,4,F,5:00 am,2022,12,17,stabbing
+83,6,F,11:59 am,2022,12,17,faint
+84,19,F,2:20 pm,2022,12,17,jaundice
+85,23,F,3:12 am,2022,12,18,
+86,18,F,7:14 pm,2022,12,18,neck dissection
+87,5,F,7:45 pm,2022,12,18,myeloma
+88,18,F,8:48 pm,2022,12,18,nstemi
+89,12,F,10:29 pm,2022,12,18,septic
+90,18,M,11:10 am,2022,12,19,aortic anurysm
+91,11,F,2:36 pm,2022,12,19,overdose
+92,6,M,2:37 pm,2022,12,19,pe
+93,18,,3:28 pm,2022,12,20,urinary tract infection
+94,18,F,3:41 pm,2022,12,20,fall
+95,23,M,7:15 pm,2022,12,20,valve replacement
+96,12,M,7:24 pm,2022,12,20,stomach pump
+97,18,M,8:33 pm,2022,12,20,MVA
+98,5,M,12:28 am,2022,12,21,diabetic ketoacidosois
+99,11,M,9:15 am,2022,12,21,mva
+100,5,F,1:20 pm,2022,12,21,
+101,5,F,4:52 pm,2022,12,21,cold
+102,23,F,3:18 am,2022,12,22,stabbing
+103,18,F,12:04 pm,2022,12,22,faint
+104,11,M,6:01 pm,2022,12,22,jaundice
+105,19,M,6:34 pm,2022,12,22,
+106,12,,8:10 pm,2022,12,22,neck dissection
+107,18,,11:48 am,2022,12,23,myeloma
+108,11,M,2:31 pm,2022,12,23,nstemi
+109,6,M,9:37 pm,2022,12,23,septic
+110,10,,12:06 am,2022,12,24,aortic anurysm
+111,11,F,2:51 am,2022,12,24,overdose
+112,23,M,6:46 am,2022,12,24,pe
+113,5,F,6:30 pm,2022,12,24,urinary tract infection
+114,15,F,11:41 am,2022,12,25,fall
+115,21,M,2:47 am,2022,12,26,valve replacement
+116,13,F,1:48 pm,2022,12,26,stomach pump
+117,21,F,7:29 pm,2022,12,27,MVA
+118,17,M,9:32 pm,2022,12,27,diabetic ketoacidosois
+119,20,M,1:48 pm,2022,12,28,mva
+120,20,M,8:36 pm,2022,12,28,
+121,15,,12:50 am,2022,12,29,cold
+122,22,F,2:37 am,2022,12,29,stabbing
+123,17,M,4:41 am,2022,12,29,faint
+124,14,M,3:09 pm,2022,12,29,jaundice
+125,22,M,9:22 pm,2022,12,29,
+126,20,F,10:00 am,2022,12,30,neck dissection
+127,14,M,12:48 pm,2022,12,30,myeloma
+128,15,M,11:40 pm,2022,12,30,nstemi
+129,14,F,11:24 pm,2022,12,31,septic
+130,16,F,11:55 pm,2022,12,31,aortic anurysm
+131,22,M,8:42 am,2022,2,12,overdose
+132,22,F,1:30 pm,2022,1,12,pe
+133,15,M,4:53 pm,2022,2,12,urinary tract infection
+134,17,F,8:33 pm,2022,6,12,fall
+135,15,F,12:15 pm,2022,6,12,valve replacement
+136,13,F,1:54 pm,2022,12,13,stomach pump
+137,20,F,7:34 pm,2022,4,12,MVA
+138,22,M,12:05 pm,2022,3,12,diabetic ketoacidosois
+139,14,M,12:17 pm,2022,6,12,mva
+140,20,M,2:30 pm,2022,4,12,
+141,16,M,2:00 pm,2022,5,12,cold
+142,17,F,4:23 pm,2022,5,12,stabbing
+143,15,M,2:21 pm,2022,7,12,faint
+144,15,M,3:30 pm,2022,5,12,jaundice
+145,13,F,11:26 am,2022,12,29,
+146,13,F,7:33 pm,2022,12,12,neck dissection
+147,13,M,7:15 pm,2022,12,12,myeloma
+148,14,M,12:52 pm,2022,8,12,nstemi
+149,20,M,10:00 am,2022,8,12,septic
+150,21,M,11:20 am,2022,6,12,aortic anurysm
+151,13,M,10:10 am,2022,7,12,overdose
+152,14,M,9:20 am,2022,12,13,pe
+153,16,F,9:41 pm,2022,6,12,urinary tract infection
+154,20,F,3:14 pm,2022,8,12,fall
+155,20,,3:30 pm,2022,7,12,valve replacement
+156,21,M,11:15 pm,2022,7,12,stomach pump
+157,20,M,1:49 pm,2022,9,12,MVA
+158,22,M,11:20 am,2022,7,12,diabetic ketoacidosois
+159,5,M,10:40 am,2022,9,12,mva
+160,21,M,8:45 pm,2022,10,12,
+161,5,M,9:50 am,2022,10,12,cold
+162,6,F,12:52 pm,2022,12,12,stabbing
+163,12,F,11:39 am,2022,12,14,faint
+164,22,F,3:07 pm,2022,9,12,jaundice
+165,19,F,10:24 pm,2022,8,12,
+166,21,M,2:35 pm,2022,12,13,neck dissection
+167,6,M,1:10 am,2022,11,12,myeloma
+168,12,M,12:04 pm,2022,9,12,nstemi
+169,5,M,3:02 pm,2022,9,12,septic
+170,20,F,8:53 am,2022,12,12,aortic anurysm
+171,12,,11:56 am,2022,12,12,overdose
+172,22,F,2:40 pm,2022,12,12,pe
+173,12,F,3:45 pm,2022,10,12,urinary tract infection
+174,12,M,11:59 am,2022,12,12,fall
+175,19,M,9:50 pm,2022,10,12,valve replacement
+176,12,M,1:10 pm,2022,12,14,stomach pump
+177,5,F,7:01 pm,2022,11,12,MVA
+178,18,M,9:22 pm,2022,12,14,diabetic ketoacidosois
+179,12,M,11:55 am,2022,12,15,mva
+180,6,M,3:45 pm,2022,12,15,
+181,20,M,12:51 pm,2022,12,15,cold
+182,21,M,12:45 pm,2022,12,14,stabbing
+183,5,F,1:23 pm,2022,12,24,faint
+184,20,M,2:00 pm,2022,12,14,jaundice
+185,12,F,11:29 pm,2023,10,1,
+186,19,F,6:59 pm,2022,12,16,neck dissection
+187,17,M,12:42 pm,2022,12,19,myeloma
+188,14,F,1:00 pm,2022,12,15,nstemi
+189,17,F,8:00 pm,2022,12,14,septic
+190,7,M,4:54 am,2022,12,14,aortic anurysm
+191,17,M,11:50 pm,2022,12,15,overdose
+192,4,F,4:33 am,2022,12,17,pe
+193,7,,3:13 pm,2022,12,15,urinary tract infection
+194,11,,11:55 am,2022,12,16,fall
+195,4,M,1:24 pm,2022,12,17,valve replacement
+196,7,F,4:25 pm,2022,12,16,stomach pump
+197,14,M,8:40 pm,2022,12,18,MVA
+198,4,M,10:44 am,2022,12,16,diabetic ketoacidosois
+199,11,M,7:00 pm,2022,12,17,mva
+200,17,F,1:00 pm,2022,12,21,
+201,10,M,8:00 pm,2022,12,16,cold
+202,17,F,5:58 pm,2022,12,19,stabbing
+203,11,M,10:30 am,2022,12,16,faint
+204,16,F,3:25 am,2022,12,17,jaundice
+205,16,M,2:05 pm,2022,12,20,
+206,23,F,3:09 pm,2022,12,19,neck dissection
+207,16,F,12:30 am,2022,12,18,myeloma
+208,14,M,12:35 pm,2022,12,20,nstemi
+209,17,F,5:00 am,2022,12,23,septic
+210,11,F,11:43 pm,2022,12,24,aortic anurysm
+211,4,F,5:42 pm,2022,12,18,overdose
+212,16,,2:10 pm,2022,12,17,pe
+213,14,F,5:48 pm,2022,12,28,urinary tract infection
+214,17,,1:33 pm,2022,12,23,fall
+215,14,F,9:47 pm,2022,12,20,valve replacement
+216,4,F,10:30 pm,2022,12,18,stomach pump
+217,3,F,4:00 pm,2022,12,29,MVA
+218,1,M,,,,,diabetic ketoacidosois
+219,13,M,1:03 pm,2022,12,22,mva
+220,2,M,9:14 am,2022,12,20,
+221,3,,5:00 pm,2023,5,1,cold
+222,1,M,7:30 pm,2022,12,20,stabbing
+223,8,F,4:30 pm,2022,12,25,faint
+224,2,,3:01 pm,2023,2,2,jaundice
+225,15,,2:16 pm,2022,12,21,
+226,2,M,11:10 am,2022,12,21,neck dissection
+227,15,,11:46 am,2022,12,21,myeloma
+228,9,M,2:10 pm,2022,12,22,nstemi
+229,13,M,11:00 am,2022,12,23,septic
+230,15,,1:34 pm,2022,12,23,aortic anurysm
+231,15,,12:00 pm,2022,12,22,overdose
+232,9,M,2:19 pm,2022,12,23,pe
+233,2,M,11:30 am,2023,1,18,urinary tract infection
+234,9,M,1:43 pm,2022,12,24,fall
+235,13,F,11:28 pm,2022,12,23,valve replacement
+236,9,F,2:30 pm,2022,12,23,stomach pump
+237,9,F,4:38 pm,2022,12,30,MVA
+238,2,M,1:28 pm,2022,12,26,diabetic ketoacidosois
+239,1,M,7:27 pm,2022,12,28,mva
+240,9,F,7:48 pm,2022,12,27,
+241,3,,3:01 pm,2022,12,25,cold
+242,2,M,8:00 pm,2022,12,27,stabbing
+243,6,F,3:18 pm,2022,12,28,faint
+244,22,F,2:42 pm,2023,10,1,jaundice
+245,2,M,3:18 pm,2023,5,1,
+246,13,M,6:25 pm,2022,12,28,neck dissection
+247,2,M,1:10 am,2023,1,1,myeloma
+248,22,M,10:00 pm,2022,12,28,nstemi
+249,13,M,1:45 pm,2022,12,30,septic
+250,18,F,12:35 pm,2022,12,30,aortic anurysm
+251,2,M,1:28 pm,2023,3,1,overdose
+252,6,F,2:30 pm,2023,2,1,pe
+253,20,M,8:12 am,2023,1,13,urinary tract infection
+254,20,F,2:43 pm,2023,11,1,fall
+255,18,M,11:00 am,2023,6,1,valve replacement
+256,6,M,6:00 pm,2022,12,31,stomach pump
+257,2,M,4:58 pm,2023,1,1,MVA
+258,18,F,9:16 am,2023,5,1,diabetic ketoacidosois
+259,2,M,5:57 pm,2023,11,1,mva
+260,22,F,6:40 am,2023,3,1,
+261,6,M,8:42 am,2022,2,12,cold
+262,20,M,6:40 pm,2022,4,12,stabbing
+263,1,M,11:30 am,2023,1,17,faint
+264,9,F,5:15 pm,2022,12,23,jaundice
+265,9,M,10:32 am,2023,5,2,
+266,2,,11:30 am,2023,11,1,neck dissection
+267,22,F,12:47 pm,2022,12,24,myeloma
+268,2,F,3:10 pm,2022,6,12,nstemi
+269,6,M,12:49 pm,2022,12,12,septic
+270,1,F,2:30 pm,2022,4,12,aortic anurysm
+271,9,F,,,,,overdose
+272,18,,4:39 pm,2022,12,15,pe
+273,9,M,1:55 pm,2022,12,30,urinary tract infection
+274,2,F,3:20 pm,2022,8,12,fall
+275,20,M,11:26 am,2022,12,29,valve replacement
+276,1,F,6:00 pm,2022,12,16,stomach pump
+277,6,,,,,,MVA
+278,9,M,4:15 pm,2022,12,23,diabetic ketoacidosois
+279,2,F,6:06 am,2022,12,15,mva
+280,18,M,10:20 am,2022,8,12,
+281,20,,11:15 am,2022,12,12,cold
+282,22,,12:30 am,2022,12,18,stabbing
+283,6,M,4:15 pm,2022,12,15,faint
+284,13,M,1:30 pm,2022,12,12,jaundice
+285,1,M,11:50 am,2023,2,15,
+286,20,M,2:30 pm,2022,12,12,neck dissection
+287,17,M,1:49 pm,2022,9,12,myeloma
+288,17,M,1:09 pm,2022,12,22,nstemi
+289,14,M,2:05 pm,2022,12,13,septic
+290,17,F,3:45 pm,2023,1,13,aortic anurysm
+291,11,F,#N/A,#N/A,#N/A,#N/A,overdose
+292,3,F,9:32 am,2023,1,23,pe
+293,4,F,1:02 pm,2022,12,17,urinary tract infection
+294,3,F,1:38 pm,2022,12,12,fall
+295,11,M,5:02 pm,2023,1,23,valve replacement
+296,17,,2:35 pm,2022,12,13,stomach pump
+297,11,,5:16 pm,2022,12,13,MVA
+298,19,M,12:33 pm,2022,12,18,diabetic ketoacidosois
+299,17,M,2:53 pm,2022,12,13,mva
+300,14,F,5:56 pm,2022,12,13,
+301,17,F,12:50 pm,2022,12,16,cold
+302,19,F,4:40 pm,2022,12,16,stabbing
+303,3,M,2:02 pm,2022,12,12,faint
+304,21,M,6:10 pm,2022,12,14,jaundice
+305,14,F,9:50 pm,2022,10,12,
+306,16,M,11:48 pm,2023,7,1,neck dissection
+307,19,M,11:50 am,2023,2,15,myeloma
+308,4,F,2:38 pm,2022,12,16,nstemi
+309,17,M,9:52 am,2022,12,22,septic
+310,11,,1:00 pm,2022,12,19,aortic anurysm
+311,19,M,12:51 pm,2022,12,15,overdose
+312,11,F,2:17 pm,2022,12,18,pe
+313,19,M,1:25 pm,2023,2,16,urinary tract infection
+314,14,,11:12 am,2022,12,16,fall
+315,3,M,#N/A,#N/A,#N/A,#N/A,valve replacement
+316,15,M,5:30 pm,2022,12,28,stomach pump
+317,17,F,#N/A,#N/A,#N/A,#N/A,MVA
+318,17,M,2:00 pm,2022,12,18,diabetic ketoacidosois
+319,14,M,12:00 pm,2022,12,18,mva
+320,17,F,9:00 am,2022,12,17,
+321,17,F,5:00 pm,2023,2,15,cold
+322,4,F,1:06 pm,2022,12,21,stabbing
+323,17,F,10:20 am,2022,12,16,faint
+324,7,,1:15 pm,2022,12,16,jaundice
+325,10,,#N/A,#N/A,#N/A,#N/A,
+326,23,,2:29 pm,2022,12,22,neck dissection
+327,8,F,1:54 pm,2022,12,23,myeloma
+328,16,F,11:50 am,2022,12,23,nstemi
+329,5,F,12:28 pm,2022,12,20,septic
+330,5,M,1:00 pm,2022,12,21,aortic anurysm
+331,12,F,11:45 am,2022,12,23,overdose
+332,12,M,11:40 am,2022,12,31,pe
+333,19,,10:30 am,2022,12,16,urinary tract infection
+334,5,F,3:50 pm,2022,12,19,fall
+335,5,M,11:17 am,2022,12,27,valve replacement
+336,12,M,11:30 am,2023,11,1,stomach pump
+337,8,F,6:00 pm,2022,12,21,MVA
+338,12,M,3:26 pm,2022,12,28,diabetic ketoacidosois
+339,8,F,5:44 pm,2022,12,26,mva
+340,12,F,12:01 pm,2022,12,27,
+341,5,M,11:00 am,2022,12,29,cold
+342,16,M,3:10 pm,2022,12,20,stabbing
+343,21,,#N/A,#N/A,#N/A,#N/A,faint
+344,3,,3:40 pm,2022,12,29,jaundice
+345,22,F,4:00 pm,2022,12,27,
+346,2,F,10:30 pm,2022,12,18,neck dissection
+347,6,F,4:00 pm,2022,12,29,myeloma
+348,13,M,#N/A,#N/A,#N/A,#N/A,nstemi
+349,2,,4:11 pm,2022,12,28,septic
+350,2,M,4:14 pm,2023,8,1,aortic anurysm
+351,22,,#N/A,#N/A,#N/A,#N/A,overdose
+352,1,M,12:44 pm,2022,12,24,pe
+353,18,,3:34 pm,2023,5,1,urinary tract infection
+354,2,M,#N/A,#N/A,#N/A,#N/A,fall
+355,2,,12:00 pm,2022,12,26,valve replacement
+356,1,F,3:18 pm,2022,12,22,stomach pump
+357,9,F,3:00 pm,2022,12,29,MVA
+358,13,F,1:30 pm,2023,5,1,diabetic ketoacidosois
+359,18,M,3:40 pm,2023,4,1,mva
+360,20,F,9:58 am,2022,12,29,
+361,2,F,11:35 am,2022,12,26,cold
+362,1,F,2:18 pm,2023,1,13,stabbing
+363,2,,#N/A,#N/A,#N/A,#N/A,faint
+364,9,M,4:00 pm,2022,12,27,jaundice
+365,1,F,1:05 pm,2022,12,28,
+366,2,,2:30 pm,2022,12,23,neck dissection
+367,20,M,11:35 am,2023,3,1,myeloma
+368,9,F,1:00 pm,2023,9,1,nstemi
+369,20,F,2:18 pm,2023,1,13,septic
+370,9,M,3:30 pm,2023,10,1,aortic anurysm
+371,13,M,1:39 am,2022,12,26,overdose
+372,22,F,8:00 pm,2022,12,27,pe
+373,6,M,5:00 pm,2023,6,1,urinary tract infection
+374,18,M,#N/A,#N/A,#N/A,#N/A,fall
+375,9,F,3:04 pm,2023,10,1,valve replacement
+376,1,F,#N/A,#N/A,#N/A,#N/A,stomach pump
+377,9,F,11:20 am,2023,2,1,MVA
+378,1,M,4:21 pm,2023,2,1,diabetic ketoacidosois
+379,14,M,6:39 pm,2023,5,1,mva
+380,17,F,1:45 pm,2023,4,1,
+381,17,F,1:28 pm,2023,3,1,cold
+382,17,M,2:55 pm,2023,5,1,stabbing
+383,11,F,8:12 am,2023,1,13,faint
+384,11,M,2:18 pm,2023,1,13,jaundice
+385,17,M,#N/A,#N/A,#N/A,#N/A,
+386,21,,1:25 pm,2023,2,16,neck dissection
+387,21,,12:14 pm,2023,1,21,myeloma
+388,11,F,#N/A,#N/A,#N/A,#N/A,nstemi
+389,14,F,6:30 pm,2023,1,27,septic
+390,11,,6:50 pm,2023,4,1,aortic anurysm
+391,11,M,1:19 pm,2022,11,1,overdose
+392,11,F,2:47 pm,2022,11,1,pe
+393,14,,4:19 pm,2022,11,1,urinary tract infection
+394,4,F,4:31 pm,2022,11,1,fall
+395,14,M,5:59 pm,2022,11,1,valve replacement
+396,14,F,6:49 pm,2022,11,1,stomach pump
+397,17,F,12:03 pm,2022,11,2,MVA
+398,4,F,12:38 pm,2022,11,2,diabetic ketoacidosois
+399,17,F,4:04 pm,2022,11,2,mva
+400,21,,4:45 pm,2022,11,2,
+401,3,,3:07 am,2022,11,3,cold
+402,15,,1:01 pm,2022,11,3,stabbing
+403,19,,6:09 pm,2022,11,3,faint
+404,12,M,9:47 pm,2022,11,3,jaundice
+405,12,,6:11 am,2022,11,4,
+406,12,,1:13 pm,2022,11,4,neck dissection
+407,5,F,3:06 pm,2022,11,4,myeloma
+408,8,F,4:24 pm,2022,11,4,nstemi
+409,12,F,8:44 pm,2022,11,5,septic
+410,5,M,9:38 pm,2022,11,5,aortic anurysm
+411,5,M,2:24 am,2022,11,6,overdose
+412,5,M,4:40 pm,2022,11,6,pe
+413,8,F,5:31 am,2022,11,7,urinary tract infection
+414,8,F,1:58 pm,2022,11,7,fall
+415,5,F,3:23 pm,2022,11,7,valve replacement
+416,7,,4:45 pm,2022,11,7,stomach pump
+417,10,,6:26 am,2022,11,11,MVA
+418,16,,5:29 pm,2022,11,7,diabetic ketoacidosois
+419,23,,7:18 pm,2022,11,7,mva
+420,13,F,3:56 pm,2022,11,8,
+421,9,F,4:03 pm,2022,11,8,cold
+422,2,F,5:27 pm,2022,11,8,stabbing
+423,13,M,8:30 pm,2022,11,8,faint
+424,2,M,10:50 pm,2022,11,8,jaundice
+425,20,F,3:48 am,2022,11,9,
+426,22,M,4:32 am,2022,11,15,neck dissection
+427,2,F,2:15 pm,2022,11,9,myeloma
+428,9,F,3:24 pm,2022,11,9,nstemi
+429,1,M,8:45 pm,2022,11,9,septic
+430,9,F,2:50 am,2022,11,10,aortic anurysm
+431,2,,12:16 pm,2022,11,10,overdose
+432,2,,3:50 pm,2022,11,10,pe
+433,9,M,5:16 pm,2022,11,10,urinary tract infection
+434,13,F,6:35 pm,2022,11,10,fall
+435,2,,8:51 pm,2022,11,10,valve replacement
+436,18,F,5:34 pm,2022,11,11,stomach pump
+437,18,F,6:31 pm,2022,11,11,MVA
+438,2,M,8:25 pm,2022,11,11,diabetic ketoacidosois
+439,20,F,3:20 am,2022,11,12,mva
+440,1,F,4:30 am,2022,11,12,
+441,2,,1:38 pm,2022,11,12,cold
+442,9,,12:20 am,2022,11,13,stabbing
+443,13,M,1:38 am,2022,11,13,faint
+444,6,M,9:14 am,2022,11,13,jaundice
+445,9,,2:27 pm,2022,11,13,
+446,2,,11:49 am,2022,11,23,neck dissection
+447,18,M,4:40 pm,2022,11,13,myeloma
+448,20,M,6:30 pm,2022,11,13,nstemi
+449,2,M,12:29 pm,2022,11,14,septic
+450,1,M,6:04 pm,2022,11,14,aortic anurysm
+451,9,F,7:37 pm,2022,11,14,overdose
+452,2,,4:32 pm,2022,11,15,pe
+453,9,M,8:23 pm,2022,11,15,urinary tract infection
+454,1,F,7:05 pm,2022,11,5,fall
+455,7,,1:54 am,2022,11,19,valve replacement
+456,10,,9:09 pm,2022,11,15,stomach pump
+457,16,,6:25 am,2022,11,24,MVA
+458,19,,6:41 pm,2022,11,17,diabetic ketoacidosois
+459,23,,11:42 am,2022,11,16,mva
+460,12,F,4:07 pm,2022,11,16,
+461,14,M,6:00 pm,2022,11,16,cold
+462,17,M,8:11 pm,2022,11,16,stabbing
+463,4,M,3:56 am,2022,11,17,faint
+464,5,M,12:39 pm,2022,11,17,jaundice
+465,5,,3:11 pm,2022,11,17,
+466,4,F,9:22 pm,2022,11,17,neck dissection
+467,8,F,1:12 pm,2022,11,18,myeloma
+468,11,M,4:05 pm,2022,11,18,nstemi
+469,12,,4:38 pm,2022,11,18,septic
+470,4,M,5:29 pm,2022,11,18,aortic anurysm
+471,5,,8:41 pm,2022,11,18,overdose
+472,11,F,3:30 pm,2022,11,21,pe
+473,21,,10:48 pm,2022,11,18,urinary tract infection
+474,8,F,12:03 pm,2022,11,19,fall
+475,11,,8:21 pm,2022,11,20,valve replacement
+476,8,F,8:52 pm,2022,11,21,stomach pump
+477,17,F,1:50 pm,2022,11,22,MVA
+478,3,,2:03 pm,2022,11,22,diabetic ketoacidosois
+479,14,F,6:50 pm,2022,11,22,mva
+480,14,F,6:57 pm,2022,11,22,
+481,17,F,12:00 pm,2022,11,23,cold
+482,17,M,2:49 pm,2022,11,23,stabbing
+483,8,M,4:31 am,2022,11,26,faint
+484,11,F,3:47 pm,2022,11,23,jaundice
+485,11,M,9:05 pm,2022,11,23,
+486,14,,1:38 pm,2022,11,24,neck dissection
+487,12,F,9:48 pm,2022,11,24,myeloma
+488,12,M,12:40 am,2022,11,25,nstemi
+489,11,,6:32 am,2022,11,25,septic
+490,14,M,3:51 pm,2022,11,25,aortic anurysm
+491,11,M,4:33 pm,2022,11,25,overdose
+492,12,M,6:27 pm,2022,11,25,pe
+493,4,F,2:30 am,2022,11,26,urinary tract infection
+494,4,,9:56 am,2022,11,26,fall
+495,17,,5:50 pm,2022,11,26,valve replacement
+496,17,F,6:00 pm,2022,11,27,stomach pump
+497,5,,10:29 pm,2022,11,27,MVA
+498,3,M,2:10 am,2022,11,28,diabetic ketoacidosois
+499,11,F,2:45 pm,2022,11,28,mva
+500,21,,4:24 pm,2022,11,28,
+501,21,,5:56 pm,2022,11,28,cold
+502,5,F,7:18 pm,2022,11,28,stabbing
+503,15,,11:47 pm,2022,11,28,faint
+504,3,,1:10 pm,2022,11,29,jaundice
+505,13,M,1:58 pm,2022,11,29,
+506,2,,2:45 pm,2022,11,29,neck dissection
+507,2,M,4:16 pm,2022,11,29,myeloma
+508,20,F,11:24 pm,2022,11,29,nstemi
+509,3,,12:58 pm,2022,11,30,septic
+510,13,F,1:21 pm,2022,11,30,aortic anurysm
+511,2,M,3:37 pm,2022,11,30,overdose
+512,9,F,5:23 pm,2022,11,30,pe
+513,2,,6:32 pm,2022,11,30,urinary tract infection
+514,9,M,3:30 pm,2022,11,6,fall
+515,9,F,11:33 am,2022,11,2,valve replacement
+516,9,M,3:20 pm,2022,11,25,stomach pump
+517,2,M,6:39 pm,2022,11,5,MVA
+518,2,M,12:54 pm,2022,11,3,diabetic ketoacidosois
+519,2,M,11:25 am,2022,11,11,mva
+520,3,M,11:38 am,2022,11,3,
+521,2,M,10:36 am,2022,11,4,cold
+522,2,F,12:00 pm,2022,11,4,stabbing
+523,2,M,4:30 pm,2022,11,3,faint
+524,20,,10:05 am,2022,11,4,jaundice
+525,6,M,9:00 pm,2022,11,4,
+526,9,F,8:42 pm,2022,11,8,neck dissection
+527,2,F,6:50 pm,2022,11,7,myeloma
+528,20,M,3:50 pm,2022,11,8,nstemi
+529,9,M,9:34 pm,2022,11,5,septic
+530,13,M,1:15 pm,2022,11,5,aortic anurysm
+531,20,,3:00 pm,2022,11,18,overdose
+532,2,F,4:00 pm,2022,11,7,pe
+533,2,M,12:55 pm,2022,11,8,urinary tract infection
+534,2,,3:58 pm,2022,11,7,fall
+535,7,,2:53 am,2022,11,15,valve replacement
+536,22,,11:00 am,2022,11,7,stomach pump
+537,14,,9:41 pm,2022,11,18,MVA
+538,17,M,10:29 am,2022,11,16,diabetic ketoacidosois
+539,17,F,12:32 pm,2022,11,9,mva
+540,17,F,11:40 am,2022,11,11,
+541,11,M,4:01 pm,2022,11,9,cold
+542,1,M,6:30 pm,2022,11,10,stabbing
+543,4,M,1:50 pm,2022,11,9,faint
+544,14,,8:58 am,2022,11,10,jaundice
+545,1,F,2:23 pm,2022,11,9,
+546,11,,3:38 pm,2022,11,13,neck dissection
+547,8,,11:30 am,2022,11,9,myeloma
+548,8,M,1:49 pm,2022,11,10,nstemi
+549,11,M,7:15 pm,2022,11,15,septic
+550,14,F,6:06 pm,2022,11,10,aortic anurysm
+551,4,F,2:55 pm,2022,11,10,overdose
+552,11,F,6:45 pm,2022,11,11,pe
+553,8,F,11:34 am,2022,11,10,urinary tract infection
+554,14,,5:48 pm,2022,11,11,fall
+555,14,F,5:20 pm,2022,11,13,valve replacement
+556,17,F,11:26 am,2022,11,13,stomach pump
+557,11,F,9:52 pm,2022,11,12,MVA
+558,1,F,5:38 pm,2022,11,15,diabetic ketoacidosois
+559,14,M,10:10 pm,2022,11,22,mva
+560,17,M,2:08 pm,2022,11,13,
+561,11,M,9:55 am,2022,11,12,cold
+562,19,,11:54 am,2022,11,12,stabbing
+563,23,,3:43 pm,2022,11,12,faint
+564,18,F,3:54 pm,2022,11,15,jaundice
+565,12,,11:54 am,2022,11,14,
+566,18,F,3:30 pm,2022,11,25,neck dissection
+567,12,F,6:30 pm,2022,12,4,myeloma
+568,21,,2:46 pm,2022,11,17,nstemi
+569,5,M,7:09 pm,2022,11,23,septic
+570,5,,3:25 pm,2022,11,14,aortic anurysm
+571,18,F,11:18 am,2022,11,15,overdose
+572,18,M,2:19 pm,2022,11,23,pe
+573,5,F,5:40 pm,2022,11,16,urinary tract infection
+574,18,F,10:00 pm,2022,11,16,fall
+575,18,M,3:50 pm,2022,11,24,valve replacement
+576,18,M,11:49 am,2022,11,17,stomach pump
+577,21,,1:29 pm,2022,11,17,MVA
+578,18,M,12:24 am,2022,11,27,diabetic ketoacidosois
+579,5,F,12:34 pm,2022,11,18,mva
+580,12,M,12:31 pm,2022,11,28,
+581,10,,1:45 pm,2022,11,28,cold
+582,15,,5:30 pm,2022,12,6,stabbing
+583,16,,12:37 pm,2022,11,17,faint
+584,3,M,12:27 pm,2022,12,14,jaundice
+585,2,M,1:36 pm,2022,11,17,
+586,13,M,11:25 am,2022,11,18,neck dissection
+587,2,,11:50 am,2022,11,18,myeloma
+588,2,M,3:06 pm,2022,11,18,nstemi
+589,20,F,2:46 pm,2022,11,21,septic
+590,2,F,11:00 am,2022,11,23,aortic anurysm
+591,6,F,5:42 pm,2022,11,20,overdose
+592,22,M,2:42 pm,2022,11,20,pe
+593,2,M,12:38 pm,2022,11,22,urinary tract infection
+594,9,M,10:30 am,2022,11,25,fall
+595,2,M,8:12 pm,2022,12,2,valve replacement
+596,9,F,3:30 pm,2022,11,21,stomach pump
+597,20,F,1:58 pm,2022,11,22,MVA
+598,2,F,3:30 pm,2022,11,22,diabetic ketoacidosois
+599,3,F,4:00 pm,2022,11,23,mva
+600,2,F,10:58 am,2022,11,24,
+601,2,M,8:10 pm,2022,11,26,cold
+602,13,M,1:47 pm,2022,11,23,stabbing
+603,2,M,10:23 am,2022,12,5,faint
+604,2,M,1:00 pm,2022,11,25,jaundice
+605,19,,9:11 am,2022,11,25,
+606,23,,7:47 pm,2022,11,27,neck dissection
+607,5,F,9:35 pm,2022,11,25,myeloma
+608,17,F,12:14 pm,2022,11,24,nstemi
+609,4,F,12:30 pm,2022,11,28,septic
+610,17,M,2:30 pm,2022,12,8,aortic anurysm
+611,21,F,2:00 pm,2022,11,30,overdose
+612,4,,9:56 am,2022,11,28,pe
+613,5,M,3:11 am,2022,11,26,urinary tract infection
+614,4,F,1:04 pm,2022,11,26,fall
+615,5,F,12:34 am,2022,11,28,valve replacement
+616,11,M,3:28 pm,2022,11,28,stomach pump
+617,11,M,11:07 am,2022,11,30,MVA
+618,14,F,3:00 pm,2022,11,29,diabetic ketoacidosois
+619,14,F,11:43 am,2022,12,1,mva
+620,8,F,2:45 pm,2022,11,30,
+621,4,,4:34 pm,2022,12,4,cold
+622,17,F,11:50 am,2022,12,2,stabbing
+623,21,,12:17 pm,2022,11,29,faint
+624,4,M,12:00 pm,2022,11,29,jaundice
+625,5,F,2:21 pm,2022,11,29,
+626,17,F,12:34 pm,2022,12,20,neck dissection
+627,17,,1:09 pm,2022,11,30,myeloma
+628,11,,10:36 am,2022,12,1,nstemi
+629,14,,3:30 pm,2022,12,2,septic
+630,5,F,2:10 pm,2022,12,1,aortic anurysm
+631,5,M,4:36 pm,2022,11,30,overdose
+632,7,,12:09 pm,2022,12,5,pe
+633,8,M,9:50 pm,2022,12,3,urinary tract infection
+634,10,,9:29 pm,2022,12,3,fall
+635,15,M,11:41 am,2022,12,1,valve replacement
+636,18,F,2:45 pm,2022,12,1,stomach pump
+637,18,F,3:23 pm,2023,12,1,MVA
+638,12,F,7:30 pm,2022,11,8,diabetic ketoacidosois
+639,1,F,4:56 pm,2023,1,30,mva
+640,12,F,2:05 pm,2022,11,11,
+641,15,M,5:27 pm,2022,11,11,cold
+642,1,M,12:05 pm,2023,1,25,stabbing
+643,15,F,12:45 pm,2022,11,7,faint
+644,18,M,12:05 pm,2022,11,28,jaundice
+645,12,M,12:50 pm,2022,11,7,
+646,18,M,11:20 am,2022,11,8,neck dissection
+647,1,F,12:16 pm,2022,11,9,myeloma
+648,16,F,4:47 pm,2022,11,8,nstemi
+649,16,M,10:25 am,2022,12,12,septic
+650,2,F,1:26 pm,2022,11,17,aortic anurysm
+651,20,M,1:05 pm,2022,11,13,overdose
+652,2,M,#VALUE!,#VALUE!,#VALUE!,#VALUE!,pe
+653,22,F,12:20 pm,2022,11,24,urinary tract infection
+654,22,F,3:00 pm,2022,11,23,fall
+655,3,M,6:15 pm,2022,12,28,valve replacement
+656,9,F,5:10 pm,2022,12,23,stomach pump
+657,2,M,9:18 am,2022,11,25,MVA
+658,3,F,12:51 pm,2022,12,22,diabetic ketoacidosois
+659,20,F,11:39 am,2023,1,24,mva
+660,2,M,2:01 pm,2022,11,29,
+661,2,,3:25 pm,2022,11,23,cold
+662,13,F,3:31 pm,2022,11,17,stabbing
+663,2,M,11:40 am,2022,11,11,faint
+664,2,M,2:00 am,2022,11,26,jaundice
+665,20,F,2:07 pm,2022,11,13,
+666,13,M,7:30 am,2022,11,12,neck dissection
+667,20,F,7:40 am,2022,11,12,myeloma
+668,3,M,12:30 pm,2022,11,13,nstemi
+669,9,F,4:33 pm,2022,12,15,septic
+670,2,F,1:00 pm,2022,11,15,aortic anurysm
+671,2,M,12:41 pm,2022,12,8,overdose
+672,3,M,7:15 pm,2022,11,15,pe
+673,2,F,1:15 pm,2022,11,12,urinary tract infection
+674,20,M,2:55 pm,2022,11,10,fall
+675,6,,12:11 pm,2022,11,17,valve replacement
+676,23,,11:34 am,2022,11,10,stomach pump
+677,5,M,3:57 pm,2022,12,7,MVA
+678,4,M,12:56 pm,2022,11,22,diabetic ketoacidosois
+679,5,F,4:30 pm,2022,11,17,mva
+680,17,M,#N/A,#N/A,#N/A,#N/A,
+681,14,F,2:30 pm,2022,11,17,cold
+682,21,,5:16 pm,2022,12,9,stabbing
+683,21,F,10:59 am,2022,11,19,faint
+684,4,M,3:23 pm,2023,12,1,jaundice
+685,17,F,#N/A,#N/A,#N/A,#N/A,
+686,4,,3:43 pm,2022,11,12,neck dissection
+687,5,F,5:30 pm,2022,11,22,myeloma
+688,4,F,6:06 pm,2022,11,22,nstemi
+689,11,M,2:00 am,2022,11,26,septic
+690,11,M,5:25 pm,2023,4,1,aortic anurysm
+691,4,F,#N/A,#N/A,#N/A,#N/A,overdose
+692,14,,7:09 pm,2022,11,23,pe
+693,21,M,8:00 am,2022,11,18,urinary tract infection
+694,11,F,2:45 pm,2022,11,25,fall
+695,17,,2:00 pm,2022,12,24,valve replacement
+696,5,F,12:00 pm,2022,11,18,stomach pump
+697,11,M,10:31 am,2023,2,16,MVA
+698,14,F,2:31 pm,2022,12,7,diabetic ketoacidosois
+699,5,F,9:28 pm,2022,11,20,mva
+700,5,M,12:24 am,2022,11,27,
+701,17,,12:24 am,2022,11,27,cold
+702,5,M,6:21 pm,2022,11,24,stabbing
+703,17,M,12:31 pm,2022,11,28,faint
+704,5,M,1:45 pm,2022,11,28,jaundice
+705,11,F,12:05 pm,2023,1,25,
+706,17,F,1:37 pm,2022,11,23,neck dissection
+707,17,F,3:31 pm,2023,1,20,myeloma
+708,5,M,1:36 pm,2022,11,17,nstemi
+709,10,,4:38 pm,2022,11,18,septic
+710,8,M,1:45 pm,2022,11,20,aortic anurysm
+711,18,F,12:57 pm,2022,11,23,overdose
+712,15,M,3:10 pm,2022,12,23,pe
+713,8,M,8:41 am,2022,11,29,urinary tract infection
+714,15,F,11:40 am,2022,11,24,fall
+715,18,M,5:13 pm,2022,11,22,valve replacement
+716,15,M,2:35 pm,2022,11,26,stomach pump
+717,1,F,5:05 pm,2022,12,4,MVA
+718,8,M,8:12 pm,2022,12,2,diabetic ketoacidosois
+719,18,M,1:25 pm,2022,12,16,mva
+720,8,F,7:45 pm,2022,11,30,
+721,1,F,4:00 pm,2022,11,28,cold
+722,16,F,#N/A,#N/A,#N/A,#N/A,stabbing
+723,8,F,4:33 pm,2022,12,2,faint
+724,15,M,5:25 pm,2022,12,2,jaundice
+725,1,F,11:33 am,2022,11,26,
+726,18,F,10:23 am,2022,12,5,neck dissection
+727,7,,3:00 pm,2022,12,6,myeloma
+728,12,,3:00 pm,2022,11,30,nstemi
+729,15,M,6:02 pm,2022,12,8,septic
+730,19,,11:48 am,2022,11,30,aortic anurysm
+731,2,F,2:49 pm,2022,11,25,overdose
+732,2,,1:30 pm,2022,12,7,pe
+733,2,M,#N/A,#N/A,#N/A,#N/A,urinary tract infection
+734,6,M,12:16 pm,2022,12,22,fall
+735,6,F,5:08 pm,2022,11,28,valve replacement
+736,6,M,3:00 pm,2022,11,30,stomach pump
+737,9,F,2:54 pm,2022,12,5,MVA
+738,13,M,5:34 pm,2022,12,5,diabetic ketoacidosois
+739,13,M,#N/A,#N/A,#N/A,#N/A,mva
+740,13,M,5:16 pm,2022,12,9,
+741,13,M,#N/A,#N/A,#N/A,#N/A,cold
+742,13,M,#N/A,#N/A,#N/A,#N/A,stabbing
+743,20,M,8:20 pm,2022,12,1,faint
+744,20,F,7:17 pm,2022,12,16,jaundice
+745,22,F,4:30 pm,2022,12,8,
+746,22,M,9:42 am,2022,12,1,neck dissection
+747,9,F,10:45 am,2022,12,18,myeloma
+748,2,,5:55 pm,2022,11,29,nstemi
+749,2,M,12:34 pm,2022,12,20,septic
+750,9,F,1:30 pm,2022,12,8,aortic anurysm
+751,13,M,12:48 pm,2022,12,9,overdose
+752,9,F,4:05 pm,2022,12,5,pe
+753,20,F,10:58 am,2022,12,2,urinary tract infection
+754,2,M,7:54 pm,2022,12,12,fall
+755,3,F,1:11 pm,2023,7,1,valve replacement
+756,21,F,1:07 pm,2022,12,8,stomach pump
+757,2,F,3:00 pm,2022,12,8,MVA
+758,9,M,2:02 pm,2022,12,4,diabetic ketoacidosois
+759,22,F,3:10 pm,2022,12,9,mva
+760,9,M,12:00 am,2022,10,1,
+761,9,F,11:41 pm,2022,10,1,cold
+762,13,,6:45 am,2022,10,2,stabbing
+763,20,M,12:56 pm,2022,10,8,faint
+764,2,M,1:36 pm,2022,10,2,jaundice
+765,9,F,6:48 pm,2022,10,2,
+766,22,F,11:45 pm,2022,10,6,neck dissection
+767,13,M,10:17 pm,2022,10,2,myeloma
+768,13,,2:34 pm,2022,10,3,nstemi
+769,6,,2:00 pm,2022,10,4,septic
+770,4,M,3:40 pm,2022,10,4,aortic anurysm
+771,4,M,5:14 pm,2022,10,4,overdose
+772,5,,7:11 pm,2022,10,4,pe
+773,5,M,7:26 pm,2022,10,4,urinary tract infection
+774,5,M,11:55 am,2022,10,5,fall
+775,5,M,3:57 pm,2022,10,1,valve replacement
+776,5,M,8:48 am,2022,10,7,stomach pump
+777,8,M,2:33 pm,2022,10,5,MVA
+778,8,M,1:06 am,2022,10,6,diabetic ketoacidosois
+779,11,,7:30 am,2022,10,6,mva
+780,11,M,12:50 pm,2022,10,6,
+781,11,F,1:29 pm,2022,10,6,cold
+782,11,M,3:28 pm,2022,10,6,stabbing
+783,14,F,5:24 pm,2022,10,6,faint
+784,17,M,6:04 pm,2022,10,6,jaundice
+785,17,M,9:30 pm,2022,10,6,
+786,11,M,12:00 am,1901,8,24,neck dissection
+787,5,F,1:06 pm,2022,10,7,myeloma
+788,17,M,5:36 pm,2022,10,7,nstemi
+789,8,M,6:23 pm,2022,10,7,septic
+790,5,F,12:02 am,2022,10,8,aortic anurysm
+791,5,M,5:39 am,2022,10,8,overdose
+792,17,F,12:53 pm,2022,10,8,pe
+793,4,F,6:35 pm,2022,10,6,urinary tract infection
+794,11,M,7:00 pm,2022,10,8,fall
+795,17,F,9:48 pm,2022,10,8,valve replacement
+796,4,M,6:28 pm,2022,10,9,stomach pump
+797,17,M,1:43 pm,2022,10,10,MVA
+798,8,F,2:57 pm,2022,10,10,diabetic ketoacidosois
+799,11,F,4:34 pm,2022,10,10,mva
+800,5,F,4:35 pm,2022,10,10,
+801,14,F,12:08 pm,2022,10,11,cold
+802,8,,1:13 pm,2022,10,11,stabbing
+803,4,F,1:56 pm,2022,10,11,faint
+804,4,M,4:51 pm,2022,10,11,jaundice
+805,17,F,6:04 pm,2022,10,11,
+806,4,F,9:17 pm,2022,10,11,neck dissection
+807,17,F,12:22 am,2022,10,12,myeloma
+808,11,F,11:53 am,2022,10,17,nstemi
+809,11,F,12:23 pm,2022,10,12,septic
+810,14,F,1:39 pm,2022,10,12,aortic anurysm
+811,19,,4:17 pm,2022,10,12,overdose
+812,23,,7:27 pm,2022,10,12,pe
+813,1,,12:47 pm,2022,10,13,urinary tract infection
+814,1,M,11:42 pm,2022,10,20,fall
+815,1,F,2:30 pm,2022,10,13,valve replacement
+816,18,F,2:38 pm,2022,10,13,stomach pump
+817,12,F,3:10 pm,2022,10,5,MVA
+818,1,F,5:50 am,2022,10,23,diabetic ketoacidosois
+819,12,F,5:15 pm,2022,10,13,mva
+820,18,F,9:01 pm,2022,10,13,
+821,16,F,11:50 am,2022,10,14,cold
+822,1,F,1:54 pm,2022,10,14,stabbing
+823,18,F,3:55 pm,2022,10,14,faint
+824,12,M,4:55 pm,2022,10,14,jaundice
+825,18,M,7:12 pm,2022,10,14,
+826,16,M,8:02 pm,2022,10,14,neck dissection
+827,15,M,11:01 pm,2022,10,15,myeloma
+828,18,,3:15 pm,2022,10,16,nstemi
+829,1,M,5:33 pm,2022,10,16,septic
+830,18,M,7:57 pm,2022,10,16,aortic anurysm
+831,7,,12:58 am,2022,10,17,overdose
+832,10,,1:02 am,2022,10,17,pe
+833,2,M,2:23 pm,2022,10,17,urinary tract infection
+834,22,M,3:10 pm,2022,10,17,fall
+835,2,M,6:51 pm,2022,10,17,valve replacement
+836,9,F,3:57 am,2022,10,30,stomach pump
+837,6,F,4:50 am,2022,10,30,MVA
+838,2,M,2:15 am,2022,10,18,diabetic ketoacidosois
+839,9,M,11:31 am,2022,10,18,mva
+840,6,M,1:11 pm,2022,10,18,
+841,20,M,3:56 pm,2022,10,18,cold
+842,2,F,5:05 pm,2022,10,18,stabbing
+843,22,F,6:04 pm,2022,10,18,faint
+844,9,F,12:48 pm,2022,10,19,jaundice
+845,2,M,6:39 pm,2022,10,19,
+846,9,F,6:56 pm,2022,10,19,neck dissection
+847,20,M,1:21 pm,2022,10,20,myeloma
+848,22,M,5:25 pm,2022,10,20,nstemi
+849,2,M,7:32 pm,2022,10,20,septic
+850,22,F,10:20 pm,2022,10,20,aortic anurysm
+851,9,M,12:44 pm,2022,10,21,overdose
+852,13,M,4:29 pm,2022,10,21,pe
+853,9,F,6:28 pm,2022,10,21,urinary tract infection
+854,9,M,10:55 pm,2022,10,21,fall
+855,9,F,1:43 am,2022,10,22,valve replacement
+856,9,F,3:28 pm,2022,10,22,stomach pump
+857,13,,5:49 pm,2022,10,22,MVA
+858,3,,8:30 pm,2022,10,22,diabetic ketoacidosois
+859,21,F,11:33 pm,2022,10,22,mva
+860,14,M,12:38 pm,2022,10,24,
+861,21,F,1:33 pm,2022,10,24,cold
+862,5,M,3:29 pm,2022,10,24,stabbing
+863,5,M,3:40 pm,2022,10,24,faint
+864,12,F,5:55 pm,2022,10,24,jaundice
+865,20,F,7:26 pm,2022,10,24,
+866,12,F,4:29 am,2022,10,25,neck dissection
+867,6,M,12:40 pm,2022,10,25,myeloma
+868,6,F,2:12 pm,2022,10,25,nstemi
+869,20,F,4:37 pm,2022,10,25,septic
+870,22,F,10:57 pm,2022,10,25,aortic anurysm
+871,6,F,1:40 pm,2022,10,26,overdose
+872,20,M,3:44 pm,2022,10,26,pe
+873,22,F,5:12 pm,2022,10,26,urinary tract infection
+874,20,M,6:06 pm,2022,10,26,fall
+875,5,F,9:04 pm,2022,10,26,valve replacement
+876,6,M,2:35 pm,2022,10,23,stomach pump
+877,12,F,12:10 am,2022,10,27,MVA
+878,19,,2:51 am,2022,10,27,diabetic ketoacidosois
+879,23,,10:05 am,2022,10,27,mva
+880,16,M,2:22 pm,2022,10,27,
+881,18,F,2:56 pm,2022,10,27,cold
+882,11,M,9:43 pm,2022,10,27,stabbing
+883,17,F,9:38 am,2022,10,28,faint
+884,18,M,7:35 pm,2022,10,27,jaundice
+885,11,M,1:23 pm,2022,10,28,
+886,3,F,5:20 pm,2022,10,28,neck dissection
+887,11,F,5:57 pm,2022,10,28,myeloma
+888,17,M,6:36 pm,2022,10,28,nstemi
+889,18,F,11:45 am,2022,10,3,septic
+890,17,M,7:54 pm,2022,10,28,aortic anurysm
+891,17,M,11:25 pm,2022,10,28,overdose
+892,17,F,12:34 am,2022,10,29,pe
+893,14,F,2:55 pm,2022,10,29,urinary tract infection
+894,17,F,5:40 pm,2022,10,29,fall
+895,4,M,8:00 pm,2022,10,29,valve replacement
+896,4,F,11:48 am,2022,10,30,stomach pump
+897,11,M,10:01 pm,2022,10,30,MVA
+898,11,F,3:54 pm,2022,10,31,diabetic ketoacidosois
+899,18,F,5:00 pm,2022,10,31,mva
+900,15,M,5:55 pm,2022,10,31,
+901,4,F,6:25 pm,2022,10,31,cold
+902,4,M,8:36 pm,2022,10,31,stabbing
+903,14,M,9:08 pm,2022,10,31,faint
+904,11,F,5:45 pm,2022,10,6,jaundice
+905,17,M,11:33 am,2022,10,4,
+906,11,M,1:00 pm,2022,10,2,neck dissection
+907,14,F,3:32 pm,2022,10,9,myeloma
+908,17,M,2:00 pm,2022,10,4,nstemi
+909,4,M,3:00 pm,2022,10,6,septic
+910,17,F,3:40 am,2022,10,7,aortic anurysm
+911,9,F,2:22 pm,2022,10,6,overdose
+912,2,M,3:56 pm,2022,10,4,pe
+913,1,M,5:31 am,2022,10,7,urinary tract infection
+914,2,F,10:48 am,2022,10,5,fall
+915,13,F,3:59 pm,2022,10,6,valve replacement
+916,8,F,2:23 pm,2022,12,5,stomach pump
+917,1,M,3:20 pm,2022,10,7,MVA
+918,2,F,9:21 pm,2022,10,6,diabetic ketoacidosois
+919,8,M,10:30 pm,2022,10,2,mva
+920,8,F,11:44 pm,2022,10,7,
+921,8,F,11:25 am,2022,10,10,cold
+922,1,M,5:28 pm,2022,10,7,stabbing
+923,1,M,3:04 pm,2022,10,8,faint
+924,2,M,4:56 pm,2022,10,7,jaundice
+925,9,M,10:45 pm,2022,10,8,
+926,1,M,9:33 pm,2022,10,6,neck dissection
+927,9,F,6:01 pm,2022,10,8,myeloma
+928,1,F,1:39 pm,2022,10,12,nstemi
+929,1,M,2:04 pm,2022,10,13,septic
+930,2,M,10:55 pm,2022,10,13,aortic anurysm
+931,9,F,3:36 pm,2022,10,10,overdose
+932,1,F,2:30 pm,2022,10,10,pe
+933,2,F,11:51 am,2022,10,10,urinary tract infection
+934,2,F,8:44 pm,2022,10,11,fall
+935,7,,9:48 am,2022,10,8,valve replacement
+936,10,,1:07 pm,2022,10,13,stomach pump
+937,12,M,2:15 pm,2022,10,15,MVA
+938,20,M,1:42 pm,2022,10,11,diabetic ketoacidosois
+939,8,F,7:04 pm,2022,10,11,mva
+940,11,M,8:00 am,2022,10,14,
+941,17,M,10:00 am,2022,10,12,cold
+942,20,M,3:22 pm,2022,10,14,stabbing
+943,8,,10:58 am,2022,10,11,faint
+944,9,F,4:25 pm,2022,10,11,jaundice
+945,12,F,11:23 am,2022,10,13,
+946,11,F,5:53 pm,2022,10,11,neck dissection
+947,17,F,1:50 pm,2022,10,13,myeloma
+948,9,M,12:50 pm,2022,10,12,nstemi
+949,22,F,12:05 pm,2022,10,14,septic
+950,8,F,2:52 pm,2022,10,12,aortic anurysm
+951,17,F,11:06 am,2022,10,12,overdose
+952,20,F,6:54 pm,2022,10,19,pe
+953,12,F,3:30 pm,2022,10,18,urinary tract infection
+954,22,M,7:34 pm,2022,10,16,fall
+955,9,M,12:30 pm,2022,10,20,valve replacement
+956,17,F,2:00 pm,2022,10,17,stomach pump
+957,12,F,3:36 pm,2022,10,14,MVA
+958,20,F,11:59 pm,2022,10,22,diabetic ketoacidosois
+959,8,F,9:30 am,2022,10,18,mva
+960,12,M,4:52 pm,2022,10,14,
+961,8,M,10:28 am,2022,10,6,cold
+962,22,F,2:00 am,2022,10,24,stabbing
+963,17,M,1:41 am,2022,10,17,faint
+964,9,M,4:03 pm,2022,10,14,jaundice
+965,9,F,1:44 pm,2022,10,16,
+966,17,M,2:00 pm,2022,10,15,neck dissection
+967,22,F,10:50 am,2022,11,7,myeloma
+968,22,M,3:56 pm,2022,10,16,nstemi
+969,21,M,11:33 am,2022,10,17,septic
+970,12,F,2:15 pm,2022,10,17,aortic anurysm
+971,17,F,12:24 pm,2022,10,18,overdose
+972,9,F,1:28 pm,2022,10,23,pe
+973,9,F,7:04 pm,2022,10,24,urinary tract infection
+974,11,F,12:11 pm,2022,10,17,fall
+975,17,F,9:00 pm,2022,10,27,valve replacement
+976,8,F,3:25 pm,2022,10,21,stomach pump
+977,17,M,9:31 am,2022,10,18,MVA
+978,21,M,1:21 pm,2022,10,18,diabetic ketoacidosois
+979,11,M,1:28 pm,2022,10,28,mva
+980,20,M,4:50 am,2022,10,30,
+981,11,M,8:02 pm,2022,10,30,cold
+982,12,F,9:05 am,2022,10,26,stabbing
+983,7,,5:57 pm,2022,10,18,faint
+984,10,,1:30 pm,2022,10,20,jaundice
+985,19,,7:00 pm,2022,10,20,
+986,23,,11:03 am,2022,10,19,neck dissection
+987,6,M,3:03 pm,2022,10,20,myeloma
+988,18,,2:18 pm,2022,10,20,nstemi
+989,4,M,11:23 am,2022,10,20,septic
+990,2,M,2:35 pm,2022,10,21,aortic anurysm
+991,13,M,1:30 am,2022,10,22,overdose
+992,14,M,2:18 pm,2022,10,24,pe
+993,2,M,3:40 pm,2022,11,1,urinary tract infection
+994,18,F,7:42 pm,2022,10,22,fall
+995,2,M,9:40 pm,2022,11,7,valve replacement
+996,18,F,10:32 pm,2022,10,22,stomach pump
+997,18,M,1:01 pm,2022,10,26,MVA
+998,14,F,9:29 am,2022,11,2,diabetic ketoacidosois
+999,18,F,2:09 pm,2022,10,22,mva
+1000,5,F,11:03 am,2022,10,24,
+1001,18,F,1:20 pm,2022,10,23,cold
+1002,14,M,12:14 pm,2022,10,24,stabbing
+1003,1,M,8:11 pm,2022,10,26,faint
+1004,6,F,1:45 am,2022,10,27,jaundice
+1005,5,M,8:30 pm,2022,10,25,
+1006,6,M,8:00 pm,2022,10,26,neck dissection
+1007,1,F,10:22 am,2022,10,25,myeloma
+1008,18,F,10:30 am,2022,10,25,nstemi
+1009,3,F,2:30 pm,2022,10,25,septic
+1010,13,F,1:15 am,2022,10,26,aortic anurysm
+1011,1,M,6:10 pm,2022,11,8,overdose
+1012,6,M,1:45 pm,2022,10,27,pe
+1013,1,M,2:30 pm,2022,10,26,urinary tract infection
+1014,6,F,2:45 pm,2022,10,28,fall
+1015,1,F,3:39 pm,2022,10,27,valve replacement
+1016,4,F,10:04 am,2022,10,27,stomach pump
+1017,5,F,12:05 pm,2022,10,28,MVA
+1018,2,M,12:11 pm,2022,10,28,diabetic ketoacidosois
+1019,1,F,4:00 pm,2022,10,27,mva
+1020,16,M,12:00 pm,2022,11,18,
+1021,1,M,5:55 pm,2022,10,28,cold
+1022,6,M,3:30 pm,2022,10,28,stabbing
+1023,4,F,6:31 pm,2022,10,28,faint
+1024,4,M,6:10 pm,2022,10,28,jaundice
+1025,14,M,12:00 pm,2022,10,31,
+1026,13,M,12:05 pm,2022,11,1,neck dissection
+1027,13,F,3:45 pm,2022,10,31,myeloma
+1028,13,F,12:15 pm,2022,10,30,nstemi
+1029,18,M,7:00 pm,2022,10,28,septic
+1030,15,,12:02 pm,2022,11,1,aortic anurysm
+1031,9,F,11:50 am,2022,11,1,overdose
+1032,11,M,2:47 pm,2022,10,29,pe
+1033,12,F,4:14 pm,2022,10,26,urinary tract infection
+1034,17,M,10:23 am,2022,10,30,fall
+1035,12,M,8:17 pm,2022,10,29,valve replacement
+1036,12,F,2:30 pm,2022,10,29,stomach pump
+1037,11,M,2:30 pm,2022,10,31,MVA
+1038,20,F,11:02 am,2022,11,2,diabetic ketoacidosois
+1039,11,F,12:06 pm,2022,10,31,mva
+1040,12,M,3:03 pm,2022,11,16,
+1041,17,M,11:30 am,2022,11,3,cold
+1042,8,M,1:19 pm,2022,11,5,stabbing
+1043,17,M,5:14 pm,2022,11,1,faint
+1044,22,F,1:15 pm,2022,11,3,jaundice
+1045,8,F,12:40 pm,2022,11,1,
+1046,12,F,1:43 pm,2022,11,2,neck dissection
+1047,6,F,8:37 pm,2022,11,1,myeloma
+1048,8,F,11:00 am,2022,12,5,nstemi
+1049,9,M,2:55 pm,2022,10,5,septic
+1050,22,F,1:00 pm,2022,10,2,aortic anurysm
+1051,8,F,3:32 pm,2022,10,9,overdose
+1052,17,F,7:00 am,2022,10,7,pe
+1053,12,M,7:13 am,2022,10,8,urinary tract infection
+1054,22,F,3:40 am,2022,10,7,fall
+1055,17,M,4:09 pm,2022,10,15,valve replacement
+1056,17,F,9:22 am,2022,10,8,stomach pump
+1057,11,F,7:15 am,2022,11,1,MVA
+1058,12,F,11:57 am,2022,10,8,diabetic ketoacidosois
+1059,17,F,7:30 am,2022,10,7,mva
+1060,12,M,,,,,
+1061,2,F,10:40 am,2022,10,13,cold
+1062,2,F,10:18 am,2022,10,8,stabbing
+1063,9,F,8:50 pm,2022,10,8,faint
+1064,21,M,8:50 pm,2022,10,8,jaundice
+1065,9,M,1:12 pm,2022,10,12,
+1066,12,M,3:40 pm,2022,10,14,neck dissection
+1067,12,F,1:47 pm,2022,11,22,myeloma
+1068,17,F,8:51 am,2022,10,11,nstemi
+1069,9,F,3:00 pm,2022,10,12,septic
+1070,17,M,1:14 pm,2022,10,10,aortic anurysm
+1071,7,,1:41 pm,2022,10,25,overdose
+1072,10,,12:40 pm,2022,10,14,pe
+1073,19,,10:22 am,2022,11,22,urinary tract infection
+1074,23,,10:58 am,2022,11,16,fall
+1075,13,M,12:44 pm,2022,10,14,valve replacement
+1076,15,F,8:00 am,2022,11,18,stomach pump
+1077,4,M,1:44 pm,2022,10,14,MVA
+1078,15,F,12:53 pm,2022,11,9,diabetic ketoacidosois
+1079,18,M,9:48 am,2022,10,8,mva
+1080,14,F,7:36 am,2022,11,10,
+1081,14,M,2:15 pm,2022,10,15,cold
+1082,1,F,11:16 am,2022,11,11,stabbing
+1083,3,F,3:40 pm,2022,10,14,faint
+1084,4,F,8:00 am,2022,10,14,jaundice
+1085,18,M,5:35 pm,2022,10,14,
+1086,14,F,2:50 pm,2022,10,19,neck dissection
+1087,3,M,10:14 pm,2022,10,18,myeloma
+1088,14,M,2:03 pm,2022,10,14,nstemi
+1089,16,M,6:27 pm,2022,10,17,septic
+1090,18,F,1:24 pm,2022,10,12,aortic anurysm
+1091,18,F,1:22 pm,2022,10,16,overdose
+1092,13,F,5:11 pm,2022,10,12,pe
+1093,1,M,12:45 pm,2022,10,16,urinary tract infection
+1094,18,F,12:39 pm,2022,10,23,fall
+1095,5,F,4:59 pm,2022,11,3,valve replacement
+1096,5,M,6:55 pm,2022,10,19,stomach pump
+1097,1,M,1:30 pm,2022,10,19,MVA
+1098,16,M,8:43 pm,2022,12,8,diabetic ketoacidosois
+1099,4,F,9:30 am,2022,11,19,mva
+1100,5,M,11:03 am,2022,10,28,
+1101,1,F,10:30 am,2022,10,20,cold
+1102,4,F,11:59 pm,2022,10,22,stabbing
+1103,1,F,12:51 pm,2022,10,19,faint
+1104,14,F,11:30 am,2022,10,17,jaundice
+1105,4,F,2:00 am,2022,10,24,
+1106,4,M,2:00 am,2022,10,24,neck dissection
+1107,12,F,1:35 pm,2022,10,18,myeloma
+1108,17,M,4:03 pm,2022,10,14,nstemi
+1109,22,M,2:10 pm,2022,10,17,septic
+1110,17,F,7:42 pm,2022,10,18,aortic anurysm
+1111,8,F,10:22 am,2022,11,22,overdose
+1112,17,M,4:30 pm,2022,10,17,pe
+1113,20,F,12:16 pm,2022,10,20,urinary tract infection
+1114,21,,2:15 pm,2022,10,17,fall
+1115,12,F,,,,,valve replacement
+1116,12,M,11:40 am,2022,12,10,stomach pump
+1117,20,M,10:30 am,2022,11,7,MVA
+1118,17,F,10:13 am,2022,11,11,diabetic ketoacidosois
+1119,12,M,5:25 pm,2023,4,1,mva
+1120,11,F,6:18 pm,2022,10,25,
+1121,17,M,7:55 am,2022,10,20,cold
+1122,11,M,1:00 pm,2022,10,28,stabbing
+1123,17,F,#N/A,#N/A,#N/A,#N/A,faint
+1124,21,M,4:50 am,2022,10,30,jaundice
+1125,12,M,8:02 pm,2022,10,30,
+1126,20,F,9:05 am,2022,10,26,neck dissection
+1127,9,M,5:57 pm,2022,10,18,myeloma
+1128,22,F,8:00 am,2022,10,25,nstemi
+1129,17,M,7:15 am,2022,11,1,septic
+1130,17,M,4:00 pm,2022,11,8,aortic anurysm
+1131,20,F,6:00 pm,2022,10,23,overdose
+1132,19,F,11:00 am,2022,10,25,pe
+1133,12,M,7:00 pm,2022,10,20,urinary tract infection
+1134,11,F,3:47 pm,2022,11,29,fall
+1135,21,M,4:14 pm,2022,11,2,valve replacement
+1136,12,M,3:00 pm,2022,10,26,stomach pump
+1137,8,F,11:42 am,2022,11,25,MVA
+1138,9,M,10:11 am,2022,12,3,diabetic ketoacidosois
+1139,11,M,,,,,mva
+1140,19,M,4:30 pm,2022,10,24,
+1141,9,F,4:38 pm,2022,11,15,cold
+1142,21,M,,,,,stabbing
+1143,11,F,11:41 am,2022,10,26,faint
+1144,19,M,7:00 am,2022,11,2,jaundice
+1145,12,F,3:40 pm,2022,11,3,
+1146,17,F,8:05 am,2022,11,12,neck dissection
+1147,10,,11:20 am,2022,11,11,myeloma
+1148,6,F,2:15 pm,2022,10,31,nstemi
+1149,16,M,11:40 am,2022,11,24,septic
+1150,18,F,11:45 am,2022,10,29,aortic anurysm
+1151,2,M,3:53 pm,2022,10,29,overdose
+1152,13,F,11:15 am,2022,10,27,pe
+1153,18,M,4:35 pm,2022,11,1,urinary tract infection
+1154,4,F,1:50 pm,2022,10,28,fall
+1155,6,F,2:00 pm,2022,11,16,valve replacement
+1156,18,M,11:06 am,2022,11,11,stomach pump
+1157,4,F,8:50 am,2022,11,4,MVA
+1158,5,F,11:09 am,2022,11,5,diabetic ketoacidosois
+1159,2,F,12:41 pm,2022,11,1,mva
+1160,14,F,9:01 pm,2022,10,29,
+1161,6,F,,,,,cold
+1162,5,M,4:30 pm,2022,10,31,stabbing
+1163,18,F,1:34 pm,2022,11,9,faint
+1164,2,M,12:00 pm,2022,11,18,jaundice
+1165,13,F,12:25 pm,2022,10,29,
+1166,4,M,1:07 pm,2022,11,2,neck dissection
+1167,18,F,2:32 pm,2022,11,4,myeloma
+1168,15,F,12:32 pm,2022,11,1,nstemi
+1169,1,M,10:40 am,2022,11,2,septic
+1170,6,M,1:59 pm,2022,12,10,aortic anurysm
+1171,1,,2:24 pm,2022,11,2,overdose
+1172,6,F,12:24 am,2022,11,27,pe
+1173,13,F,11:00 am,2022,11,1,urinary tract infection
+1174,13,F,8:20 am,2022,11,28,fall
+1175,16,M,11:10 am,2022,11,3,valve replacement
+1176,18,F,2:47 pm,2022,10,29,stomach pump
+1177,14,M,7:49 pm,2022,12,2,MVA
+1178,16,M,10:30 am,2022,11,16,diabetic ketoacidosois
+1179,18,M,11:40 am,2022,11,1,mva
+1180,4,F,2:30 pm,2022,10,29,
+1181,15,F,1:05 pm,2022,11,9,cold
+1182,1,F,2:39 pm,2022,11,4,stabbing
+1183,2,F,5:15 pm,2022,11,3,faint
+1184,14,F,11:37 am,2022,12,2,jaundice
+1185,1,F,,,,,
+1186,4,F,4:00 am,2022,11,29,neck dissection
+1187,16,F,4:00 pm,2022,11,8,myeloma
+1188,1,M,,,,,nstemi
+1189,4,F,9:45 am,2022,11,25,septic
+1190,13,M,8:05 am,2022,11,12,aortic anurysm
+1191,5,F,1:17 pm,2022,11,5,overdose
