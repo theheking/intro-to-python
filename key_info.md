@@ -2,8 +2,11 @@
 layout: page
 title: Key Infomation
 ---
-Register now for our upcoming Introduction to Python workshop. This workshop will run for 2 days. Please note that during the workshop, all important communications will be in the workshop slack channel. 
+Intro to Python (2-Day) 
 
+
+Day 1: 9am - 1pm Friday 5th May 
+Day 2: 9am - 1pm Monday 8th May 
 
 At the end of the workshop you will be able to:
  -	Use basic python functions
@@ -12,27 +15,12 @@ At the end of the workshop you will be able to:
 
 Requirements:
  - Web browser
- - Zoom
- - Slack
+ - Google Collab account 
 
 
-### Key to How Infomation will be Displayed
-Exploratory text
-```
-$ Command-line examples will be given in their own boxes, starting with "$".
- $ Optional parameters will be given [in square brackets].
-Terminal output will be in the same format, without the leading $.
-```
+###How to Set Up Your Google Colab Account
 
-`Functions used within exploratory text`
-> Questions/Challenges
->>  You will find questions and extra activities scattered throughout the instructions. These are not assessed but will help you to understand the processes and associated theory lectures.
+Go to https://colab.research.google.com and login with your Google account.
+Select NEW NOTEBOOK → NEW PYTHON 3 NOTEBOOK - a new notebook will be created.
 
 
-<em>**These contain general reusable hints and tips rather than specific topic commands etc.**</em>
-
-
-
-
-
-**NOTE:**  It is recommended that you also use a fixed width font (e.g. Consolas) and colour formatting when documenting code in your own lab books to help it stand out from other thoughts/instructions.
