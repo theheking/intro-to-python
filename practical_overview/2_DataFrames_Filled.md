@@ -2205,3 +2205,4 @@ patient_df['weight_x_site'] # Now you have it in a new column which is cool!
     Name: weight_x_site, Length: 1191, dtype: float64
 
 
+Adapted from Monash Data Science which was orginally adapted from the Data Carpentry - Python for Ecologists and Software Carpentry - Programming with Python (used under a CC-BY 4.0 license).
