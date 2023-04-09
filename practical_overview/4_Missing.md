@@ -121,3 +121,4 @@ What NaN values are, how they might be represented, and what this means for your
 How to replace NaN values, if desired
 How to use to_csv to write manipulated data to a file.
 
+Adapted from Monash Data Science which was orginally adapted from the Data Carpentry - Python for Ecologists and Software Carpentry - Programming with Python (used under a CC-BY 4.0 license).
