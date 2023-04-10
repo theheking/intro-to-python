@@ -212,3 +212,8 @@ The `pandas` merge function supports two other join types:
 1. Create a new DataFrame by containing the individual organisms from `surveys2002.csv` that are the species found in `speciesSubset.csv`.
 
 2. Calculate the mean hindfoot_length by sex. 
+
+
+
+
+Adapted from Monash Data Science which was orginally adapted from the Data Carpentry - Python for Ecologists and Software Carpentry - Programming with Python (used under a CC-BY 4.0 license).
