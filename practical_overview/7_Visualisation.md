@@ -246,3 +246,4 @@ g.map(plt.scatter, alpha=0.8)
 g.add_legend();
 # NB. our data is not that useful
 ```
+Adapted from Monash Data Science which was orginally adapted from the Data Carpentry - Python for Ecologists and Software Carpentry - Programming with Python (used under a CC-BY 4.0 license).
