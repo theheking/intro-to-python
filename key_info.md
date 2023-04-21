@@ -8,12 +8,11 @@ Welcome All!
 
 
 ### Dates
-Day 1: 9am - 1pm Friday 5th May 
-Day 2: 9am - 1pm Monday 8th May 
+- Day 1: 9am - 1pm Friday 5th May 
+- Day 2: 9am - 1pm Monday 8th May 
 
 
-
-## Before the course please make sure you have :
+## Before the course please make sure you have:
  - Set up a Google account 
  - Charger 
  - Postive attitude!
