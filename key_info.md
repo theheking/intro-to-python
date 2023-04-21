@@ -18,7 +18,7 @@ Welcome All!
  - Postive attitude!
  
 ### How to Set Up Your Google Colab Account
- - Go to https://colab.research.google.com and login with your Google account.
+ - Go to [Google Colab](https://colab.research.google.com) and login with your Google account.
  - Select NEW NOTEBOOK → NEW PYTHON 3 NOTEBOOK - a new notebook will be created.
  - Please dont edit the google colab notebook directly!
 
