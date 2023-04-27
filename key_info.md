@@ -8,8 +8,10 @@ Welcome All!
 
 
 ### Dates
-- Day 1: 9am - 1pm Friday 5th May 
-- Day 2: 9am - 1pm Monday 8th May 
+*Day 1:*
+- Friday 5th May : 9am - 1pm 
+*Day 2:*
+- Monday 8th May: 9am - 1pm 
 
 
 ## Before the course please make sure you have:
@@ -17,15 +19,22 @@ Welcome All!
  - Charger 
  - Postive attitude!
  
+ 
 ### How to Set Up Your Google Colab Account
  - Go to [Google Colab](https://colab.research.google.com) and login with your Google account.
- - Select NEW NOTEBOOK → NEW PYTHON 3 NOTEBOOK - a new notebook will be created.
- - Please dont edit the google colab notebook directly!
+ - To create a blank notebook, you need to select NEW NOTEBOOK → NEW PYTHON 3 NOTEBOOK - a new notebook will be created.
+ - For our course you will be copying the *"template notebook"* found in the Material tab. Please don't edit the google colab notebook directly.
+ 1.  Select MATERIAL --> THE BASICS --> OPEN IN COLAB. 
+ 2.  This will open the same website but in an interactive version. 
+ 3.  Select FILE --> SAVE A COPY IN DRIVE. Please select an area in your Google Drive to save a copy. 
+ 4.  This is the copy of the master copy that you will be working on. 
 
-## At the end of the workshop you will be able to:
- -	Use basic python functions
- -	Edit csv files with python
- -	Make static figures
+The only difference between the *Material* and *Material Comp* is that *Material Comp* is the completed jupyter notebooks found in *Material tab*.
+
+## By the end of the workshop you will be able to:
+ -	Use basic Python functions
+ -	Edit csv files with Python
+ -	Make informative figures!
 
 
 
