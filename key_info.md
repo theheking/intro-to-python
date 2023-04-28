@@ -8,9 +8,9 @@ Welcome All!
 
 
 ### Dates
-*Day 1:*
+*Day 1*
 - Friday 5th May : 9am - 1pm 
-*Day 2:*
+*Day 2*
 - Monday 8th May: 9am - 1pm 
 
 
