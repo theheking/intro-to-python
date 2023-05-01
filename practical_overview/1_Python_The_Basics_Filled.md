@@ -3,24 +3,25 @@
 # Fundamentals of Python
 
 # Objectives
-Assign value to variables
+- Understand the background of Python
+- Understand the different data types and structures
+- Be able to use Python like a calculator
 
-Guido Van Rossum first created Python in 1991 with key aims:
-
-1. Good for day to day activities. Less development time.
-2. As simple and easy to understand as english
-3. Open source so that everyone can contirbute to the program
+Guido Van Rossum first created Python in 1991 with these key aims:
+1. Suitable for day-to-day activities. Fast development time.
+2. As simple and easy to understand as English
+3. Open source so that everyone can contribute to the program
 
 # What are the advantages of using Python compared to other languages?
 
-## Advantages....
+## Advantages
 - Open-source
 - Available for iOS, Windows and Linux
 - Designed for readability
 - Large supportive community
-- Third party packages! 
+- Third-party packages! 
 
-## Disadvantages....
+## Disadvantages
 - Speed
 - High memory consumption
 - Low execution speed
@@ -32,12 +33,11 @@ print(sys.version)
 
 ```
 
-    3.9.16 (main, Dec  7 2022, 01:11:51) 
-    [GCC 9.4.0]
+    3.10.11 (main, Apr  5 2023, 14:15:10) [GCC 9.4.0]
 
 
 The designer of Python is Guido van Rossum!
-He used to be the BDFL which he retired from in 2018! Now 31 years later and on release 3.10.6
+He used to be the BDFL which he retired from in 2018! Now 32 years later and on release 3.10.11
 
 
 ```python
@@ -46,9 +46,9 @@ He used to be the BDFL which he retired from in 2018! Now 31 years later and on 
 ```
 
 # Using interactive Python in Jupyter-style notebooks
-There are two methods to use python
-- interactive mode: similar to a scientific calculator, but you insert code into blocks within jupyter notebooks `.ipynb`. 
-- scripting mode: save that same code into a file with the ending `.py`. 
+There are two methods for using Python:
+- Interactive mode: similar to a scientific calculator, but you insert code into blocks within jupyter notebooks .ipynb.
+- Scripting mode: save that same code into a file with the ending .py.
 
 
 ```python
@@ -70,13 +70,14 @@ print("Python is rad")
 
 Shift-Enter to run the contents of the cell
 
-You can add new cells by either 
-a) hovering in between two boxes and selecting code. 
-b) Insert then insert code cell
+You can add new cells by either:
+1.   Hovering in between two boxes and selecting code. 
+2.   Selecting Insert then Insert code cell
+
 
 NOTE: When the text on the left hand of the cell is: In [*] (with an asterisk rather than a number) --> cell is still running.
 
-Let's begin writing some code in our notebook.
+Let's begin writing some more code in our notebook.
 
 
 
@@ -91,7 +92,7 @@ print(name)
     Garvan
 
 
-A hash tag (#) denotes a comment anything after that comment is ignored by the the python intepreter
+A hashtag (#) denotes a comment. The python interpreter ignores anything after that comment.
 
 
 ```python
@@ -105,9 +106,9 @@ print(name)
 # Variables and data types
 
 ## Integers, floats and strings
-Of the 'Numeric' types. There are two key types integer and floats.
+With 'Numeric' types, there are two key types integer and floats.
 
-Other (slightly less important types include `hex` for hexadecamil and `complex` for complex numbers!
+Other slightly less important types include `hex` for hexadecimal and `complex` for complex numbers!
 
 
 
@@ -137,14 +138,14 @@ type(kinghorn)
 
 ```python
 #assign a decimal to variable
-ariane = 1.01
+katherine = 1.01
 
 ```
 
 
 ```python
 #what type is this 
-type(ariane)
+type(katherine)
 ```
 
 
@@ -154,9 +155,7 @@ type(ariane)
 
 
 
-5 min into groups 
 ### Poll Time 
-#### Your vote counts!!!! 🗳️ 
 
 What is the <b>type</b> of the variable letters defined below ?
 
@@ -164,7 +163,7 @@ letters = "ABACBS"
 
 
 ## Strings
-`str` stands for "string". These hold sequences of characters. Characters are not limited to letts but, also numbers, punctuation and emojiis!
+`str` stands for "string". These hold sequences of characters. Characters are not limited to letters but, also numbers, punctuation and emojiis!
 
 
 ```python
@@ -519,7 +518,7 @@ print(list_of_safari[-2])
 
 ## Loops 
 
-A for loop can be used to access the elements in a list or other Python data structure one at a time. We will learn about loops in another lesson.
+A **for loop** can be used to access the elements in a list or other Python data structure one at a time. We will learn about loops in another lesson.
 
 Indentation is very important in Python. Note that the second line in the example above is indented, indicating the code that is the body of the loop.
 
@@ -707,7 +706,7 @@ help(list_of_numbers)
 
 ## Tuples
 
-A tuple is similar to a list in that it's an ordered sequence of elements. However, tuples can not be changed once created (they are "immutable"). Tuples are created by placing comma-separated values inside parentheses ().
+A tuple is similar to a list in that it's an ordered sequence of elements. However, tuples can not be changed once created (they are "immutable"). Tuples are made by placing comma-separated values inside parentheses ().
 
 
 
@@ -747,9 +746,9 @@ tuples_example[3]="hello"
 
 ## Dictionary
 
-Dictionaries are a container that store key-value pairs. They are unordered.
+Dictionaries are used to store key-value pairs. They are unordered.
 
-The `items` method returns a sequence of the key-value pairs as tuples. `values` returns a sequence of just the values. `keys` reutrns a sequence of just the keys.
+The `items` method returns a sequence of the key-value pairs as tuples. `values` returns a sequence of just the values. `keys` returns a sequence of just the keys.
 
 
 
@@ -859,11 +858,9 @@ dict_of_dicts #an example of a more compliated dictionary
 
 
 
-5 min into groups
 
-Poll Time
-Your vote counts!!!! 🗳️
- 
+# Poll Time
+
 jam_ratings = {'Plum': 6, 'Apricot': 2, 'Strawberry': 8}
 
 
@@ -891,6 +888,3 @@ print(jam_ratings)
 
     {'Plum': 6, 'Apricot': 9, 'Strawberry': 8}
 
-        
-        
-Adapted from [Monash Data Science](https://monashdatafluency.github.io/python-workshop-base/) which was orginally adapted from the Data Carpentry - Python for Ecologists and Software Carpentry - Programming with Python (used under a CC-BY 4.0 license).
