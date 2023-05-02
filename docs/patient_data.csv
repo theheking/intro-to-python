@@ -1,4 +1,4 @@
-patient_id,site_id,sex,time,year,month,day,illness,weight
+patient_id,site_id,gender,time,year,month,day,illness,weight
 1,2,M,9:27 am,2022,1,12,overdose,38
 2,3,M,10:57 am,2022,1,12,valve replacement,40
 3,2,F,4:33 pm,2022,1,12,MVA,74
