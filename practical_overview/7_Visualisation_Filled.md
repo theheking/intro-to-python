@@ -1,9 +1,12 @@
 <a href="https://colab.research.google.com/github/theheking/intro-to-python/blob/gh-pages/7_Visualisation_Filled.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
-# Visualisation with Seaborn and Matlib pyplot
+# Visualisation with Seaborn and Matplotlib
 
-Python has a number of powerful plotting libraries to choose from. One of the oldest and most popular is matplotlib
+Python has several powerful plotting libraries to choose from. One of the oldest and most popular is matplotlib
+
+## Objectives
+- Make a range of graphs
 
 The Grammar of Graphics
 1. Statistical graphics is a mapping from data to aesthetic attributes (colour, shape, size) of geometric objects (points, lines, bars)
@@ -25,25 +28,6 @@ The Grammar of Graphics
 
 ```
 
-    Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
-    Requirement already satisfied: pandas in /usr/local/lib/python3.9/dist-packages (1.4.4)
-    Requirement already satisfied: matplotlib in /usr/local/lib/python3.9/dist-packages (3.7.1)
-    Requirement already satisfied: seaborn in /usr/local/lib/python3.9/dist-packages (0.12.2)
-    Requirement already satisfied: python-dateutil>=2.8.1 in /usr/local/lib/python3.9/dist-packages (from pandas) (2.8.2)
-    Requirement already satisfied: pytz>=2020.1 in /usr/local/lib/python3.9/dist-packages (from pandas) (2022.7.1)
-    Requirement already satisfied: numpy>=1.18.5 in /usr/local/lib/python3.9/dist-packages (from pandas) (1.22.4)
-    Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.9/dist-packages (from matplotlib) (0.11.0)
-    Requirement already satisfied: pillow>=6.2.0 in /usr/local/lib/python3.9/dist-packages (from matplotlib) (8.4.0)
-    Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/lib/python3.9/dist-packages (from matplotlib) (1.4.4)
-    Requirement already satisfied: importlib-resources>=3.2.0 in /usr/local/lib/python3.9/dist-packages (from matplotlib) (5.12.0)
-    Requirement already satisfied: contourpy>=1.0.1 in /usr/local/lib/python3.9/dist-packages (from matplotlib) (1.0.7)
-    Requirement already satisfied: pyparsing>=2.3.1 in /usr/local/lib/python3.9/dist-packages (from matplotlib) (3.0.9)
-    Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.9/dist-packages (from matplotlib) (23.0)
-    Requirement already satisfied: fonttools>=4.22.0 in /usr/local/lib/python3.9/dist-packages (from matplotlib) (4.39.3)
-    Requirement already satisfied: zipp>=3.1.0 in /usr/local/lib/python3.9/dist-packages (from importlib-resources>=3.2.0->matplotlib) (3.15.0)
-    Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.9/dist-packages (from python-dateutil>=2.8.1->pandas) (1.16.0)
-
-
 
 ```python
 import numpy as np
@@ -54,10 +38,10 @@ import urllib.request
 ```
 
 Basic steps of creating plots with Seaborn are:
-1. Prepare some data
-2. Control figure aesthetics 
-3. Plot with seaborn
-4. Further customize your plot
+1. Prepare the data in correct format.
+2. Consider the figure aesthetics best to describe.
+3. Plot with seaborn.
+4. Further customize your plot.
 
 
 ```python
@@ -105,9 +89,9 @@ plt.legend('ABCDEF', ncol=2, loc='upper left');
 
 
 # Forming a Seaborn plot using our data
-It provides high-level commands to create a variety of plot types.
+To use the functions within the seaborn package.
 
-Need to define
+You need to define:
 - data -> dataframe 
 - x --> string with the name of column
 - y --> string with the name of column
@@ -146,7 +130,7 @@ patient_df
 
 
 
-  <div id="df-ac007bbb-09d2-49f4-a809-cfcdf790ea1e">
+  <div id="df-96390411-d296-45d1-afdc-968a18a51594">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -168,7 +152,7 @@ patient_df
       <th></th>
       <th>patient_id</th>
       <th>site_id</th>
-      <th>sex</th>
+      <th>gender</th>
       <th>time</th>
       <th>year</th>
       <th>month</th>
@@ -187,8 +171,8 @@ patient_df
       <td>2022.0</td>
       <td>1.0</td>
       <td>12.0</td>
-      <td>cold</td>
-      <td>27.0</td>
+      <td>overdose</td>
+      <td>38.0</td>
     </tr>
     <tr>
       <th>1</th>
@@ -199,8 +183,8 @@ patient_df
       <td>2022.0</td>
       <td>1.0</td>
       <td>12.0</td>
-      <td>stabbing</td>
-      <td>37.0</td>
+      <td>valve replacement</td>
+      <td>40.0</td>
     </tr>
     <tr>
       <th>2</th>
@@ -211,8 +195,8 @@ patient_df
       <td>2022.0</td>
       <td>1.0</td>
       <td>12.0</td>
-      <td>faint</td>
-      <td>19.0</td>
+      <td>MVA</td>
+      <td>74.0</td>
     </tr>
     <tr>
       <th>3</th>
@@ -223,8 +207,8 @@ patient_df
       <td>2022.0</td>
       <td>1.0</td>
       <td>12.0</td>
-      <td>jaundice</td>
-      <td>19.0</td>
+      <td>aortic aneurysm</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>4</th>
@@ -235,8 +219,8 @@ patient_df
       <td>2022.0</td>
       <td>1.0</td>
       <td>12.0</td>
-      <td>NaN</td>
-      <td>36.0</td>
+      <td>MVA</td>
+      <td>80.0</td>
     </tr>
     <tr>
       <th>...</th>
@@ -259,8 +243,8 @@ patient_df
       <td>2022.0</td>
       <td>11.0</td>
       <td>8.0</td>
-      <td>myeloma</td>
-      <td>36.0</td>
+      <td>MVA</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>1187</th>
@@ -271,8 +255,8 @@ patient_df
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>nstemi</td>
-      <td>35.0</td>
+      <td>pe</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>1188</th>
@@ -283,8 +267,8 @@ patient_df
       <td>2022.0</td>
       <td>11.0</td>
       <td>25.0</td>
-      <td>septic</td>
-      <td>37.0</td>
+      <td>pleural effusion</td>
+      <td>82.0</td>
     </tr>
     <tr>
       <th>1189</th>
@@ -295,8 +279,8 @@ patient_df
       <td>2022.0</td>
       <td>11.0</td>
       <td>12.0</td>
-      <td>aortic anurysm</td>
-      <td>35.0</td>
+      <td>nstemi</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>1190</th>
@@ -307,14 +291,14 @@ patient_df
       <td>2022.0</td>
       <td>11.0</td>
       <td>5.0</td>
-      <td>overdose</td>
-      <td>38.0</td>
+      <td>diabetic ketoacidosois</td>
+      <td>54.0</td>
     </tr>
   </tbody>
 </table>
 <p>1191 rows × 9 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-ac007bbb-09d2-49f4-a809-cfcdf790ea1e')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-96390411-d296-45d1-afdc-968a18a51594')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -365,12 +349,12 @@ patient_df
 
       <script>
         const buttonEl =
-          document.querySelector('#df-ac007bbb-09d2-49f4-a809-cfcdf790ea1e button.colab-df-convert');
+          document.querySelector('#df-96390411-d296-45d1-afdc-968a18a51594 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-ac007bbb-09d2-49f4-a809-cfcdf790ea1e');
+          const element = document.querySelector('#df-96390411-d296-45d1-afdc-968a18a51594');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -417,7 +401,7 @@ plt.show(g)
 
 ```python
 # lets add some infomation about species and year using the hue and size 
-ax = sns.scatterplot(data=patient_df, x="weight", y="day", size="sex", hue="illness")
+ax = sns.scatterplot(data=patient_df, x="weight", y="day", size="gender", hue="illness")
 #but as you can see this is a pretty ugly and uninformative plot
 ```
 
@@ -432,7 +416,7 @@ ax = sns.scatterplot(data=patient_df, x="weight", y="day", size="sex", hue="illn
 
 ```python
 #remove the legend
-ax = sns.scatterplot(data=patient_df, x="weight", y="day", size="sex", hue="illness", legend=False)
+ax = sns.scatterplot(data=patient_df, x="weight", y="day", size="gender", hue="illness", legend=False)
 ```
 
 
@@ -447,7 +431,7 @@ You can also use the bbox_to_anchor() argument to place the legend outside of th
 
 
 ```python
-g = sns.scatterplot(data=patient_df, x="weight", y="day", size="sex", hue="illness")
+g = sns.scatterplot(data=patient_df, x="weight", y="day", size="gender", hue="illness")
 plt.legend(bbox_to_anchor=(1.02, 1), ncol=4, loc="upper left")
 plt.show(g)
 ```
@@ -461,7 +445,7 @@ plt.show(g)
 
 ```python
 #remove the key
-g = sns.scatterplot(data=patient_df, x="weight", y="day", size="sex", hue="illness")
+g = sns.scatterplot(data=patient_df, x="weight", y="day", size="gender", hue="illness")
 plt.legend(bbox_to_anchor=(1.02, 1), loc="upper left",ncol=3)
 plt.show(g)
 ```
@@ -495,7 +479,7 @@ sns.palplot(palette)
 
 ```python
 ##change the colours using palette arguement
-g = sns.scatterplot(data=patient_df, x="weight", y="day", size="sex", hue="illness", palette="bright")
+g = sns.scatterplot(data=patient_df, x="weight", y="day", size="gender", hue="illness", palette="bright")
 plt.legend(bbox_to_anchor=(1.02, 1), loc="upper left",ncol=3)
 plt.show(g)
 ```
@@ -509,7 +493,7 @@ plt.show(g)
 # Forming a count bar plot
 This is when we need to start asking questions about our data...
 
-1. Is there a change in the number of patients we have at each site?
+Is there a change in the number of patients we have at each site?
 
 
 
@@ -527,30 +511,25 @@ plt.show(g)
 
 
 ```python
-#is there a difference in the 
-patient_df[["site_id", "illness"]].value_counts().unstack().plot(kind='bar', stacked=True)
-plt.legend(bbox_to_anchor=(1, 1), loc="upper left", ncol=3)
+#try to form a stacked id showing the distrubution of ..... patient df with gender and illness 
+g= patient_df[['site_id', 'illness']].value_counts().unstack().plot(kind="bar", stacked=True)
+plt.show(g)
+
 ```
 
 
-
-
-    <matplotlib.legend.Legend at 0x7f7caad0d850>
-
-
-
-
     
-![png](7_Visualisation_Filled_files/7_Visualisation_Filled_25_1.png)
+![png](7_Visualisation_Filled_files/7_Visualisation_Filled_25_0.png)
     
 
 
 
 ```python
-#try to form a stacked id showing the distrubution of .....
-g=sns.countplot(data=patient_df, x="sex", hue="illness")
-plt.xticks(rotation=90)
+#move the legend to the outside 
+g=patient_df[["site_id", "illness"]].value_counts().unstack().plot(kind='bar', stacked=True)
+plt.legend(bbox_to_anchor=(1, 1), loc="upper left", ncol=3)
 plt.show(g)
+
 ```
 
 
@@ -561,10 +540,10 @@ plt.show(g)
 
 
 ```python
-#work around
-g= patient_df[['site_id', 'illness']].value_counts().unstack().plot(kind="bar", stacked=True)
+#try to form a stacked id showing the distrubution of .....
+g=sns.countplot(data=patient_df, x="gender", hue="illness")
+plt.xticks(rotation=90)
 plt.show(g)
-
 ```
 
 
@@ -573,41 +552,27 @@ plt.show(g)
     
 
 
-
-```python
-#work around
-g= patient_df[['site_id', 'illness']].value_counts().unstack().plot(kind="bar", stacked=True)
-plt.legend(bbox_to_anchor=(1.02, 1), loc="upper left",ncol=3)
-plt.show(g)
-```
-
-
-    
-![png](7_Visualisation_Filled_files/7_Visualisation_Filled_28_0.png)
-    
-
-
 # Challenges
-1) Produce a plot comparing the number of observations for every sex at each site. 
+1) Produce a plot comparing the number of observations for every gender at each site. 
 
 
 
 
 ```python
 #work around
-g= patient_df[['site_id', 'sex']].value_counts().unstack().plot(kind="bar", stacked=True)
+g= patient_df[['site_id', 'gender']].value_counts().unstack().plot(kind="bar", stacked=True)
 plt.legend(bbox_to_anchor=(1.02, 1), loc="upper left",ncol=3)
 plt.show(g)
 ```
 
 
     
-![png](7_Visualisation_Filled_files/7_Visualisation_Filled_30_0.png)
+![png](7_Visualisation_Filled_files/7_Visualisation_Filled_29_0.png)
     
 
 
 
-2) Use a boxplot to visualise the weight across sex. 
+2) Use a boxplot to visualise the weight across gender. 
 
 - HINT: There's a list of plot types available from the cheatsheet
 
@@ -617,25 +582,25 @@ plt.show(g)
 ```python
 #work around
 sns.set(rc={'figure.figsize':(20,20)})
-sns.boxplot(data=patient_df, x="weight", y="sex")
+sns.boxplot(data=patient_df, x="weight", y="gender")
 ```
 
 
 
 
-    <Axes: xlabel='weight', ylabel='sex'>
+    <Axes: xlabel='weight', ylabel='gender'>
 
 
 
 
     
-![png](7_Visualisation_Filled_files/7_Visualisation_Filled_32_1.png)
+![png](7_Visualisation_Filled_files/7_Visualisation_Filled_31_1.png)
     
 
 
 # Violin Plots are an alternative to boxplots...
 
-- Boxplot has four main features about a variable: center, spread, asymmetry, and outlier
+Boxplots has four main features about a variable: center, spread, asymmetry, and outlier
 
 - Violin plot shows density too 
 
@@ -648,8 +613,8 @@ Here we will show extra things to develop your plot
 
 ```python
 sns.set(rc={'figure.figsize':(20.7,8.27)})
-g = sns.violinplot(data=patient_df, x="illness", y="weight", split=True, orient="v", hue="sex")
-# test out split=True, hue="sex"
+g = sns.violinplot(data=patient_df, x="illness", y="weight", split=True, orient="v", hue="gender")
+# test out split=True, hue="gender"
 #xticks
 plt.show(g)
 
@@ -658,13 +623,19 @@ plt.show(g)
 
 ```
 
+
+    
+![png](7_Visualisation_Filled_files/7_Visualisation_Filled_33_0.png)
+    
+
+
 # Save an image 
 When saving a figure think about
 
 
 
 ```python
-g = sns.violinplot(data=patient_df, x="illness", y="weight", split=True, orient="v", hue="sex")
+g = sns.violinplot(data=patient_df, x="illness", y="weight", split=True, orient="v", hue="gender")
 location_string="nameofigure.jpeg"
 plt.savefig(location_string, transparent =False)
 #plt.clf()
@@ -672,7 +643,7 @@ plt.savefig(location_string, transparent =False)
 
 
     
-![png](7_Visualisation_Filled_files/7_Visualisation_Filled_36_0.png)
+![png](7_Visualisation_Filled_files/7_Visualisation_Filled_35_0.png)
     
 
 
@@ -696,12 +667,12 @@ g.add_legend();
 # NB. our data is not that useful
 ```
 
-    /usr/local/lib/python3.9/dist-packages/seaborn/axisgrid.py:181: UserWarning: The label '_nolegend_' of <matplotlib.patches.Patch object at 0x7f7cab14f130> starts with '_'. It is thus excluded from the legend.
+    /usr/local/lib/python3.10/dist-packages/seaborn/axisgrid.py:181: UserWarning: The label '_nolegend_' of <matplotlib.patches.Patch object at 0x7f575f0b8cd0> starts with '_'. It is thus excluded from the legend.
       figlegend = self._figure.legend(handles, labels, **kwargs)
 
 
 
     
-![png](7_Visualisation_Filled_files/7_Visualisation_Filled_39_1.png)
+![png](7_Visualisation_Filled_files/7_Visualisation_Filled_38_1.png)
     
-Adapted from Monash Data Science which was orginally adapted from the Data Carpentry - Python for Ecologists and Software Carpentry - Programming with Python (used under a CC-BY 4.0 license).
+

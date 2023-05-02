@@ -1,7 +1,15 @@
 <a href="https://colab.research.google.com/github/theheking/intro-to-python/blob/gh-pages/5_Combining_DataFrames.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # Learning How to Combine DataFrames
-A common problem when dealing with is data is when you want combine two or more dataframes into one larger, more representative one.  Here we will learn how to both concatenate or merge two datasets using pandas.
+
+A common problem when dealing with is data is when you want to combine two or more data frames into one larger, more representative one.  Here we will learn how to concatenate or merge two datasets using pandas.
+
+Objectives 
+- Be able to merge two dataframes using pandas using different methods 
+- Be able to concatenate two dataframes together 
+
+We will be using two model datasets from the UCSB python ecology workshop.
+
 
 
 
@@ -92,22 +100,21 @@ vertical_stack2.groupby('sex')['year'].mean()
 
 # Joining DataFrames
 
-- We concatenated our DataFrames we simply added them to each other - stacking them either vertically or side by side
+We concatenated our DataFrames and added them to each other, stacking them vertically or side by side.
 
-- We need to join the rows that are the same across both dataframes. 
+- We need to join the duplicate rows across both data frames. 
 
 - Combining DataFrames using a common field is called “joining”. 
 
-- The columns containing the common values are called “join key(s)”. 
+- The columns containing the same values are called “join key(s)”. 
 
-- Joining DataFrames in this way is often useful when one DataFrame is a “lookup table” containing additional data that we want to include in the other.
+- Joining DataFrames in this way is often useful when one data frame is a “lookup table” containing additional data that we want to include in the other.
 
-- For example, the species.csv file that we’ve been working with is a lookup table. It contains the genus, species and taxa code for 55 species, which is unique.
+- For example, the species.csv file we’ve been working with is a lookup table. It contains the genus, species, and taxa code for 55 species, which is unique.
 
-Storing data in this way has many benefits including:
-
+Storing data in this way has many benefits, including:
 - consistency
-- easy for us to make changes to the species information once without having to find each instance of it in the larger survey data.
+- easy for us to change the species information once without finding each instance of it in the more extensive survey data.
 - optimizes the size of our data.
 
 
@@ -118,7 +125,7 @@ To better understand joins, let’s grab the first 10 lines of our data as a sub
 
 
 ```python
-# Read in first 10 lines of surveys table assign the survey_sub
+# print off first 10 lines of surveys table assign the survey_sub
 
 ```
 
@@ -137,24 +144,24 @@ species_sub
 
 
 ```python
-#print what columns are the same across both dataframe
+#print both columns present in species_sub and surverys_df
 
 ```
 
 In this example, species_sub is the lookup table containing genus, species, and taxa names.
 
-We want to join the data that contains all of the columns from both species_df and survey_df. The column that is the same in both dataframes is species_id. 
+We want to join the data containing all the columns from species_df and survey_df. The column that is the same in both data frames is species_id. 
 
 
 There are different type of joins! 
 
 
 ### A) Inner Join
-- An inner join combines two DataFrames based on a join key and returns a new DataFrame that contains only those rows that have matching values in both of the original DataFrames.
+An inner join combines two DataFrames based on a join key and returns a new DataFrame containing only those rows with matching values in both of the original DataFrames.
 
 - Inner joins yield a DataFrame that contains only rows where the value being joins exists in BOTH tables. 
 
-An example of an inner join:
+Examples of all the methods to join together two data frames:
 ![img.png](https://drive.google.com/uc?id=1ZnVWxcmrXe4TySISayoLgShMS_UjCfbf)
 
 
@@ -173,7 +180,7 @@ An example of an inner join:
 ```
 
 
-> Note: that merged_inner has fewer rows than survey_sub. This is an indication that there were rows in surveys_df with value(s) for species_id that do not exist as value(s) for species_id in species_df.
+> Note: that merged_inner has fewer rows than survey_sub. This indicates that there were rows in surveys_df with value(s) for species_id that do not exist as value(s) for species_id in species_df.
 
 # B) Left Joins
 
@@ -189,7 +196,6 @@ The result DataFrame from a left join looks similar to the result DataFrame from
 #left join is performed in pandas by calling
 #the same `merge` function used for inner join, but using the how='left' argument:
 
-
 ```
 
 
@@ -203,8 +209,8 @@ These rows are the ones where the value of species_id from survey_sub (in this c
 
 The `pandas` merge function supports two other join types:
 
-- Right (outer) join: Invoked by passing how='right' as an argument. Similar to a left join, except all rows from the right DataFrame are kept, while rows from the left DataFrame without matching join key(s) values are discarded.
-- Full (outer) join: Invoked by passing how='outer' as an argument. This join type returns the all pairwise combinations of rows from both DataFrames; i.e., the result DataFrame will NaN where data is missing in one of the dataframes. This join type is very rarely used.
+- Right (outer) join: Invoked by passing how='right' as an argument. Like a left join, all rows from the right DataFrame are kept, while rows from the left DataFrame without matching join key(s) values are discarded.
+- Full (outer) join: Invoked by passing how='outer' as an argument. This join type returns all pairwise combinations of rows from both DataFrames; i.e., the result DataFrame will have NaN if data is missing in one of the data frames. This join type is very rarely used.
 
 
 # Extra Challenge
@@ -212,8 +218,3 @@ The `pandas` merge function supports two other join types:
 1. Create a new DataFrame by containing the individual organisms from `surveys2002.csv` that are the species found in `speciesSubset.csv`.
 
 2. Calculate the mean hindfoot_length by sex. 
-
-
-
-
-Adapted from Monash Data Science which was orginally adapted from the Data Carpentry - Python for Ecologists and Software Carpentry - Programming with Python (used under a CC-BY 4.0 license).

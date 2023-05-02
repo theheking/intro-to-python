@@ -1,9 +1,12 @@
 <a href="https://colab.research.google.com/github/theheking/intro-to-python/blob/gh-pages/7_Visualisation.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 
-# Visualisation with Seaborn and Matlib pyplot
+# Visualisation with Seaborn and Matplotlib
 
-Python has a number of powerful plotting libraries to choose from. One of the oldest and most popular is matplotlib
+Python has several powerful plotting libraries to choose from. One of the oldest and most popular is matplotlib
+
+## Objectives
+- Make a range of graphs
 
 The Grammar of Graphics
 1. Statistical graphics is a mapping from data to aesthetic attributes (colour, shape, size) of geometric objects (points, lines, bars)
@@ -21,7 +24,7 @@ The Grammar of Graphics
 
 
 ```python
-!pip install pandas matplotlib seaborn
+#install matplotlib !pip install pandas matplotlib seaborn
 
 ```
 
@@ -35,10 +38,10 @@ import urllib.request
 ```
 
 Basic steps of creating plots with Seaborn are:
-1. Prepare some data
-2. Control figure aesthetics 
-3. Plot with seaborn
-4. Further customize your plot
+1. Prepare the data in correct format.
+2. Consider the figure aesthetics best to describe.
+3. Plot with seaborn.
+4. Further customize your plot.
 
 
 ```python
@@ -72,9 +75,9 @@ plt.legend('ABCDEF', ncol=2, loc='upper left');
 ```
 
 # Forming a Seaborn plot using our data
-It provides high-level commands to create a variety of plot types.
+To use the functions within the seaborn package.
 
-Need to define
+You need to define:
 - data -> dataframe 
 - x --> string with the name of column
 - y --> string with the name of column
@@ -93,7 +96,8 @@ patient_df=pd.read_csv('patient_data.csv')
 
 
 ```python
-#control figure aesthetics use set_style with white, darkgrid, whitegrid, dark, ticks
+#control figure aesthetics use set_style with white, darkgrid, whitegrid, dark, ticks sns.set_style("white")
+
 ```
 
 Another great extension for imporvement of aesthetics are: https://seaborn.pydata.org/tutorial/aesthetics.html
@@ -108,7 +112,7 @@ Another great extension for imporvement of aesthetics are: https://seaborn.pydat
 
 
 ```python
-# lets add some infomation about species and year using the hue and size  sns.scatterplot(data=patient_df, x="weight", y="day", size="sex", hue="illness")
+# lets add some infomation about species and year using the hue and size  sns.scatterplot(data=patient_df, x="weight", y="day", size="gender", hue="illness")
 #but as you can see this is a pretty ugly and uninformative plot
 ```
 
@@ -171,17 +175,17 @@ Is there a change in the number of patients we have at each site?
 
 
 ```python
-#use countplot to visualise the different sexes with the number of patients with siteid, use xticks with rotation=90
+#use countplot to visualise the different gender with the number of patients with siteid, use xticks with rotation=90
 
 ```
 
 # Challenges
-1) Produce a plot comparing the number of observations for every sex at each site. 
+1) Produce a plot comparing the number of observations for every gender at each site. 
 
 
 
 
-2) Use a boxplot to visualise the weight across sex. 
+2) Use a boxplot to visualise the weight across gender. 
 
 - HINT: There's a list of plot types available from the cheatsheet
 
@@ -205,7 +209,7 @@ Here we will show extra things to develop your plot
 sns.set(rc={'figure.figsize':(20.7,8.27)})
 
 # make a violinplot of illness against weight 
-# test out split=True, hue="sex", 
+# test out split=True, hue="gender", 
 
 
 
@@ -220,7 +224,7 @@ When saving a figure think about
 
 ```python
 #save the same dataframe
-g = sns.violinplot(data=patient_df, x="illness", y="weight", split=True, orient="v", hue="sex")
+g = sns.violinplot(data=patient_df, x="illness", y="weight", split=True, orient="v", hue="gender")
 #create a string and save the image
 location_string="nameofigure.jpeg"
 plt.savefig(location_string, transparent =False)
@@ -246,4 +250,3 @@ g.map(plt.scatter, alpha=0.8)
 g.add_legend();
 # NB. our data is not that useful
 ```
-Adapted from Monash Data Science which was orginally adapted from the Data Carpentry - Python for Ecologists and Software Carpentry - Programming with Python (used under a CC-BY 4.0 license).

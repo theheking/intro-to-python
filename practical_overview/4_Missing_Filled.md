@@ -2,7 +2,15 @@
 
 ## Dealing with missing data
 
-Most real world data has lots of missing values and this can be an issue, in this notebook we'll go through how to deal with missing data.
+Most real-world data has lots of missing values, and this can be an issue; in this notebook, we'll go through how to deal with missing data.
+
+Objectives
+1. What NaN values are
+2. How they might be represented
+3. What this means for your work
+4. How to replace NaN values, if desired
+5. How to use to_csv to write manipulated data to a file.
+
 
 
 
@@ -13,16 +21,19 @@ Most real world data has lots of missing values and this can be an issue, in thi
 ```
 
     Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
-    Requirement already satisfied: pandas in /usr/local/lib/python3.7/dist-packages (1.3.5)
-    Requirement already satisfied: matplotlib in /usr/local/lib/python3.7/dist-packages (3.2.2)
-    Requirement already satisfied: python-dateutil>=2.7.3 in /usr/local/lib/python3.7/dist-packages (from pandas) (2.8.2)
-    Requirement already satisfied: numpy>=1.17.3 in /usr/local/lib/python3.7/dist-packages (from pandas) (1.21.6)
-    Requirement already satisfied: pytz>=2017.3 in /usr/local/lib/python3.7/dist-packages (from pandas) (2022.2.1)
-    Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.7/dist-packages (from python-dateutil>=2.7.3->pandas) (1.15.0)
-    Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.7/dist-packages (from matplotlib) (0.11.0)
-    Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /usr/local/lib/python3.7/dist-packages (from matplotlib) (3.0.9)
-    Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/lib/python3.7/dist-packages (from matplotlib) (1.4.4)
-    Requirement already satisfied: typing-extensions in /usr/local/lib/python3.7/dist-packages (from kiwisolver>=1.0.1->matplotlib) (4.1.1)
+    Requirement already satisfied: pandas in /usr/local/lib/python3.10/dist-packages (1.5.3)
+    Requirement already satisfied: matplotlib in /usr/local/lib/python3.10/dist-packages (3.7.1)
+    Requirement already satisfied: python-dateutil>=2.8.1 in /usr/local/lib/python3.10/dist-packages (from pandas) (2.8.2)
+    Requirement already satisfied: pytz>=2020.1 in /usr/local/lib/python3.10/dist-packages (from pandas) (2022.7.1)
+    Requirement already satisfied: numpy>=1.21.0 in /usr/local/lib/python3.10/dist-packages (from pandas) (1.22.4)
+    Requirement already satisfied: contourpy>=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (1.0.7)
+    Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (0.11.0)
+    Requirement already satisfied: fonttools>=4.22.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (4.39.3)
+    Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (1.4.4)
+    Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (23.1)
+    Requirement already satisfied: pillow>=6.2.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (8.4.0)
+    Requirement already satisfied: pyparsing>=2.3.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib) (3.0.9)
+    Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil>=2.8.1->pandas) (1.16.0)
 
 
 Make sure the libraries are loaded and we have the data we need.
@@ -46,7 +57,7 @@ patient_df=pd.read_csv('patient_data.csv', sep=',')
 ```
 
 ### Finding Missing Values
-Let's identify all locations in the survey data that have null (missing or NaN) data values. 
+Let's identify all locations in the data that have null (missing or NaN) data values. 
 
 
 We can use the `isnull` method to do this. The `isnull` method will compare each cell with a null value. If an element has a null value, it will be assigned a value of `True` in the output object.
@@ -61,7 +72,7 @@ pd.isnull(patient_df).head()
 
 
 
-  <div id="df-231c6e6f-743c-4428-8e8d-2013525a1ebd">
+  <div id="df-9ce215bd-a49a-42bb-896c-f8ed353a3cef">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -83,7 +94,7 @@ pd.isnull(patient_df).head()
       <th></th>
       <th>patient_id</th>
       <th>site_id</th>
-      <th>sex</th>
+      <th>gender</th>
       <th>time</th>
       <th>year</th>
       <th>month</th>
@@ -139,7 +150,7 @@ pd.isnull(patient_df).head()
       <td>False</td>
       <td>False</td>
       <td>False</td>
-      <td>False</td>
+      <td>True</td>
     </tr>
     <tr>
       <th>4</th>
@@ -150,13 +161,13 @@ pd.isnull(patient_df).head()
       <td>False</td>
       <td>False</td>
       <td>False</td>
-      <td>True</td>
+      <td>False</td>
       <td>False</td>
     </tr>
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-231c6e6f-743c-4428-8e8d-2013525a1ebd')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-9ce215bd-a49a-42bb-896c-f8ed353a3cef')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -207,12 +218,12 @@ pd.isnull(patient_df).head()
 
       <script>
         const buttonEl =
-          document.querySelector('#df-231c6e6f-743c-4428-8e8d-2013525a1ebd button.colab-df-convert');
+          document.querySelector('#df-9ce215bd-a49a-42bb-896c-f8ed353a3cef button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-231c6e6f-743c-4428-8e8d-2013525a1ebd');
+          const element = document.querySelector('#df-9ce215bd-a49a-42bb-896c-f8ed353a3cef');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -251,7 +262,7 @@ patient_df[pd.isnull(patient_df).any(axis=1)]
 
 
 
-  <div id="df-37b060a3-94bd-4b19-8967-bc51d2d483eb">
+  <div id="df-59c0ed8d-00f7-4eb5-a20e-b7d045f5b495">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -273,7 +284,7 @@ patient_df[pd.isnull(patient_df).any(axis=1)]
       <th></th>
       <th>patient_id</th>
       <th>site_id</th>
-      <th>sex</th>
+      <th>gender</th>
       <th>time</th>
       <th>year</th>
       <th>month</th>
@@ -284,16 +295,52 @@ patient_df[pd.isnull(patient_df).any(axis=1)]
   </thead>
   <tbody>
     <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>3</td>
+      <th>3</th>
+      <td>4</td>
+      <td>7</td>
       <td>M</td>
-      <td>7:26 pm</td>
+      <td>4:52 pm</td>
       <td>2022.0</td>
       <td>1.0</td>
       <td>12.0</td>
+      <td>aortic aneurysm</td>
       <td>NaN</td>
-      <td>36.0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>6</td>
+      <td>1</td>
+      <td>M</td>
+      <td>6:24 am</td>
+      <td>2022.0</td>
+      <td>2.0</td>
+      <td>12.0</td>
+      <td>myeloma</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>11</td>
+      <td>5</td>
+      <td>F</td>
+      <td>2:14 pm</td>
+      <td>2022.0</td>
+      <td>3.0</td>
+      <td>12.0</td>
+      <td>hyponatraemia</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>13</td>
+      <td>3</td>
+      <td>M</td>
+      <td>11:08 pm</td>
+      <td>2022.0</td>
+      <td>3.0</td>
+      <td>12.0</td>
+      <td>neck dissection</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>13</th>
@@ -304,44 +351,8 @@ patient_df[pd.isnull(patient_df).any(axis=1)]
       <td>2022.0</td>
       <td>3.0</td>
       <td>12.0</td>
-      <td>fall</td>
-      <td>21.0</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>19</td>
-      <td>4</td>
       <td>NaN</td>
-      <td>3:18 pm</td>
-      <td>2022.0</td>
-      <td>5.0</td>
-      <td>12.0</td>
-      <td>mva</td>
-      <td>20.0</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>20</td>
-      <td>11</td>
-      <td>F</td>
-      <td>5:34 pm</td>
-      <td>2022.0</td>
-      <td>5.0</td>
-      <td>12.0</td>
-      <td>NaN</td>
-      <td>26.0</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>23</td>
-      <td>13</td>
-      <td>M</td>
-      <td>11:13 am</td>
-      <td>2022.0</td>
-      <td>6.0</td>
-      <td>12.0</td>
-      <td>faint</td>
-      <td>NaN</td>
+      <td>92.0</td>
     </tr>
     <tr>
       <th>...</th>
@@ -356,40 +367,16 @@ patient_df[pd.isnull(patient_df).any(axis=1)]
       <td>...</td>
     </tr>
     <tr>
-      <th>1176</th>
-      <td>1177</td>
-      <td>14</td>
+      <th>1178</th>
+      <td>1179</td>
+      <td>18</td>
       <td>M</td>
-      <td>7:49 pm</td>
-      <td>2022.0</td>
-      <td>12.0</td>
-      <td>2.0</td>
-      <td>MVA</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>1177</th>
-      <td>1178</td>
-      <td>16</td>
-      <td>M</td>
-      <td>10:30 am</td>
+      <td>11:40 am</td>
       <td>2022.0</td>
       <td>11.0</td>
-      <td>16.0</td>
-      <td>diabetic ketoacidosois</td>
+      <td>1.0</td>
       <td>NaN</td>
-    </tr>
-    <tr>
-      <th>1179</th>
-      <td>1180</td>
-      <td>4</td>
-      <td>F</td>
-      <td>2:30 pm</td>
-      <td>2022.0</td>
-      <td>10.0</td>
-      <td>29.0</td>
       <td>NaN</td>
-      <td>39.0</td>
     </tr>
     <tr>
       <th>1184</th>
@@ -400,8 +387,20 @@ patient_df[pd.isnull(patient_df).any(axis=1)]
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
+      <td>MVA</td>
+      <td>56.0</td>
+    </tr>
+    <tr>
+      <th>1186</th>
+      <td>1187</td>
+      <td>16</td>
+      <td>F</td>
+      <td>4:00 pm</td>
+      <td>2022.0</td>
+      <td>11.0</td>
+      <td>8.0</td>
+      <td>MVA</td>
       <td>NaN</td>
-      <td>37.0</td>
     </tr>
     <tr>
       <th>1187</th>
@@ -412,14 +411,26 @@ patient_df[pd.isnull(patient_df).any(axis=1)]
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
+      <td>pe</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1189</th>
+      <td>1190</td>
+      <td>13</td>
+      <td>M</td>
+      <td>8:05 am</td>
+      <td>2022.0</td>
+      <td>11.0</td>
+      <td>12.0</td>
       <td>nstemi</td>
-      <td>35.0</td>
+      <td>NaN</td>
     </tr>
   </tbody>
 </table>
-<p>444 rows × 9 columns</p>
+<p>442 rows × 9 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-37b060a3-94bd-4b19-8967-bc51d2d483eb')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-59c0ed8d-00f7-4eb5-a20e-b7d045f5b495')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -470,12 +481,12 @@ patient_df[pd.isnull(patient_df).any(axis=1)]
 
       <script>
         const buttonEl =
-          document.querySelector('#df-37b060a3-94bd-4b19-8967-bc51d2d483eb button.colab-df-convert');
+          document.querySelector('#df-59c0ed8d-00f7-4eb5-a20e-b7d045f5b495 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-37b060a3-94bd-4b19-8967-bc51d2d483eb');
+          const element = document.querySelector('#df-59c0ed8d-00f7-4eb5-a20e-b7d045f5b495');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -498,22 +509,24 @@ patient_df[pd.isnull(patient_df).any(axis=1)]
 
 
 
-### Explaination
-Notice that we have 444 observations/rows that contain one or more missing values. Thats roughly **37%** of data contains missing values.
+### Explanation
+Notice that we have 444 observations/rows that contain one or more missing values. 
 
-We have used `[]` convension to select subset of data.
+That's roughly **37%** of data contains missing values.
+
+We have used `[]` conversion to select a subset of data.
 
 More information about slicing and indexing can be found out here.
 
 `(axis=1)` is a numpy convention to specify columns.
 
+
+
 Note that the weight column of our DataFrame contains many null or NaN values. Next, we will explore ways of dealing with this.
 
-If we look at the weight column in the surveys data we notice that there are NaN (Not a Number) values. NaN values are undefined values that cannot be represented mathematically. Pandas, for example, will read an empty cell in a CSV or Excel sheet as a NaN. NaNs have some desirable properties: if we were to average the weight column without replacing our NaNs, Python would know to skip over those cells.
+If we look at the weight column in the patient data, we notice that there are NaN (Not a Number) values. NaN values are undefined values that are not represented mathematically. 
 
-
-
-
+Pandas, for example, will read an empty cell in a CSV or Excel sheet as a NaN. However, NaNs have some desirable properties: if we were to average the weight column without replacing our NaNs, Python would know to skip over those cells.
 
 
 ## Dealing with missing values.
@@ -527,7 +540,7 @@ Thoughts:
 
 
 ```python
-## Where Are the NaN's?
+## where Are the NaN's?
 
 ## how many missing values are there in weight column
 len(patient_df[pd.isnull(patient_df.weight)])
@@ -536,7 +549,7 @@ len(patient_df[pd.isnull(patient_df.weight)])
 
 
 
-    217
+    207
 
 
 
@@ -549,7 +562,7 @@ len(patient_df[patient_df.weight> 0])
 
 
 
-    974
+    984
 
 
 
@@ -567,8 +580,8 @@ print(patient_df['weight'].mean())
 print(df1['weight'].mean())
 ```
 
-    33.063655030800824
-    27.039462636439968
+    71.09349593495935
+    58.737195633921075
 
 
 
@@ -582,25 +595,16 @@ print(patient_df['weight'].mean())
 print(df1['weight'].mean())
 ```
 
-    33.063655030800824
-    33.063655030800824
+    71.09349593495935
+    71.09349593495936
 
 
 ## Writing Out Data to CSV
 
-Great, so you've filled out all your data but now you want to share it with your collaborators, to do that you can just write to a CSV as usual.
+Great, you've filled out all your data, but now you want to share it with your collaborators. To do that, you can just write to a CSV as usual.
 
 
 ```python
 # Write DataFrame to CSV
 df1.to_csv('surveys_complete.csv', index=False)
 ```
-
-## Recap
-What we've learned:
-
-What NaN values are, how they might be represented, and what this means for your work
-How to replace NaN values, if desired
-How to use to_csv to write manipulated data to a file.
-
-Adapted from Monash Data Science which was orginally adapted from the Data Carpentry - Python for Ecologists and Software Carpentry - Programming with Python (used under a CC-BY 4.0 license).
