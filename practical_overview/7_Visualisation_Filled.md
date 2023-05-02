@@ -14,7 +14,7 @@ The Grammar of Graphics
 2. Faceting can be used to generate the same plot for different subsets of the dataset
 
 
-#Great resources include:
+## Great resources include:
 - https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf
 
 - https://seaborn.pydata.org/examples/index.html
