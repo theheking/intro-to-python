@@ -187,3 +187,7 @@ for indices, values in enumerate(cc):
  
 print(y)
 ```
+
+
+Adapted from Monash Data Science which was orginally adapted from the Data Carpentry - Python for Ecologists and Software Carpentry - Programming with Python (used under a CC-BY 4.0 license).
+
