@@ -382,3 +382,10 @@ How would you change the value associated with the key Apricot to 9?
 - jam_ratings[9] = 'Apricot'
 - jam_ratings['Apricot'] = 9
 - jam_ratings[2] = 'Apricot'
+
+ 
+ 
+ 
+ 
+ Adapted from Monash Data Science which was orginally adapted from the Data Carpentry - Python for Ecologists and Software Carpentry - Programming with Python (used under a CC-BY 4.0 license).
+
